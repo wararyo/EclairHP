@@ -1,0 +1,858 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"tnu",
+				"top-news__unit\t(index.php)"
+			],
+			[
+				"tib",
+				"top-info-banner\t(index.php)"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"background-",
+				"background-attachment"
+			],
+			[
+				"bs",
+				"box-shadow\t(_hero.scss)"
+			],
+			[
+				"ti",
+				"top-info\t(index.php)"
+			],
+			[
+				"_",
+				"_info.scss"
+			],
+			[
+				"wnb",
+				"works-navigator__bg\t(works.php)"
+			],
+			[
+				"wdu",
+				"works-detail__unit\t(works.php)"
+			],
+			[
+				"ws",
+				"works-scroll\t(works.php)"
+			],
+			[
+				"jc",
+				"jc-fs\tjustify-content: flex-start;"
+			],
+			[
+				"whc",
+				"works-hero__colors"
+			],
+			[
+				"width",
+				"outline-width"
+			],
+			[
+				"works-hero__",
+				"works-hero__bg\t(works.php)"
+			],
+			[
+				"st-h",
+				"st-hero__heading\t(about.php)"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"whb",
+				"works-hero__bg\t(works.php)"
+			],
+			[
+				"wor",
+				"works-hero\t(works.php)"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"contact-recruit__u",
+				"contact-recruit__unit\t(contact.php)"
+			],
+			[
+				"ccu",
+				"contact-contact__unit\t(contact.php)"
+			],
+			[
+				"cc",
+				"contact-contact\t(contact.php)"
+			],
+			[
+				"st-footer",
+				"st-footer__top\t(index.php)"
+			],
+			[
+				"pr",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"top-n",
+				"top-news__header\t(index.php)"
+			],
+			[
+				"tn",
+				"top-news\t(index.php)"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"mo",
+				"module/"
+			],
+			[
+				"tru",
+				"top-recruit__unit\t(index.php)"
+			],
+			[
+				"font-",
+				"font-size-sm\t(_fontsize.scss)"
+			],
+			[
+				"fon",
+				"font-size-md\t(_fontsize.scss)"
+			],
+			[
+				"top-product__item",
+				"top-product__itemBackground\t(index.php)"
+			],
+			[
+				"a",
+				"assets"
+			],
+			[
+				"tpi",
+				"top-product__item\t(index.php)"
+			],
+			[
+				"top-produ",
+				"top-product__items\t(index.php)"
+			],
+			[
+				"top-pro",
+				"top-product\t(index.php)"
+			],
+			[
+				"top-mission",
+				"top-mission__desc\t(index.php)"
+			],
+			[
+				"padd",
+				"padding\t(_header.scss)"
+			],
+			[
+				"top-her",
+				"top-hero\t(index.php)"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"top-hero_",
+				"top-hero__scroll\t(index.php)"
+			],
+			[
+				"style",
+				"font-style"
+			],
+			[
+				"st-header",
+				"st-header__nav\t(index.php)"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"STANS",
+				"STANS-INC\t(header.php)"
+			],
+			[
+				"brow",
+				"browser-sync"
+			],
+			[
+				"ass",
+				"assets/"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"home",
+				"home_url"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"border-righ",
+				"border-right-width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"wrap",
+				"flex-wrap"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"wra",
+				"flex-wrap"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"MONE",
+				"MONEY_KINDS"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"height",
+				"min-height"
+			],
+			[
+				"conte",
+				"align-content"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"transla",
+				"translateY()"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"canvas",
+				"canvasWidth"
+			],
+			[
+				"can",
+				"canvasHeight"
+			],
+			[
+				"canva",
+				"canvasWidth"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"box",
+				"box-shadow"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					""
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"All Syntaxes"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Performance"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Regex Compatibility"
+				]
+			],
+			[
+				"Packages/Default/Syntax Tests.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "ter",
+		"selected_items":
+		[
+			[
+				"ter",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 419.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"gulp",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/wararyo/Git/EclairHP"
+	],
+	"file_history":
+	[
+		"/Users/wararyo/Git/Qpic-Web/src/app/qpic-web-api/qpic-web-api.module.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/app.component.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/environments/environment.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/about/about.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/lectures/lectures.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/works/work/work.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/news/news.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/main/main.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/index.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/works/work/work.component.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/db-connection.service.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/works/new-works/new-works.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/parts/cards/cards.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/write-article/write-article.component.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/parts/cards/cards.component.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/write-article/write-article.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/works/player/player.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/app.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/header/header.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/write-article/write-article.component.spec.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/write-article/write-article.component.scss",
+		"/Users/wararyo/Git/Qpic-Web/src/app/works/player/player.component.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/works/work/work.component.scss",
+		"/Users/wararyo/Git/Qpic-Web/src/app/works/player/player.component.scss",
+		"/Users/wararyo/Git/Qpic-Web/src/app/shinkan/shinkan.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/header/header.component.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/navigation/navigation.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/account/users/users.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/footer/footer.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/app.component.scss",
+		"/Users/wararyo/Git/Qpic-Web/src/app/navigation/navigation.component.scss",
+		"/Users/wararyo/Git/Qpic-Web/src/styles.scss",
+		"/Users/wararyo/Git/Qpic-Web/src/app/navigation/navigation.component.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/app-routing.module.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/app.module.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/header/header.component.spec.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/works/work/work.component.spec.ts",
+		"/Users/wararyo/Git/qpic_shinkan/ui.tag",
+		"/Users/wararyo/Git/qpic_shinkan/css/style.css",
+		"/Users/wararyo/Git/Qpic-Web/src/app/shinkan/shinkan.component.scss",
+		"/Users/wararyo/Git/Qpic-Web/src/app/account/users/users.component.scss",
+		"/Users/wararyo/Git/qpic_shinkan/shinkan.tag",
+		"/Users/wararyo/Git/Qpic-Web/dist/index.html",
+		"/Users/wararyo/Git/qpic_shinkan/tags/shinkan.tag",
+		"/Users/wararyo/Git/Qpic-Web/src/app/parts/infobox/infobox.component.spec.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/parts/infobox/infobox.component.html",
+		"/Users/wararyo/Git/Qpic-Web/src/app/parts/infobox/infobox.component.ts",
+		"/Users/wararyo/Git/qpic_shinkan/tags/common.tag",
+		"/Users/wararyo/Git/Qpic-Web/src/app/navigation/navigation.component.spec.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/contents/work/work.component.ts",
+		"/Users/wararyo/Git/Qpic-Web/src/app/contents/work/work.component.html",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/foundation/mixin/_fontsize.scss",
+		"/Applications/MAMP/htdocs/stans_front/style.css",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/works/_concept.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/utility/_fontsize.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/bourbon/library/_size.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/works/_concept",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/structure/_contentWrap.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/foundation/mixin/_content-width.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/works/_hero.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/utility/_fontweight.scss",
+		"/Applications/MAMP/htdocs/stans_front/node_modules/core-js/fn/string/fontsize.js",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/foundation/mixin/_fontfamily.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/structure/_hero.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/contact/_catchphrase.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/contact/_detail.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/about/_vision.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/contact/_map.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/contact/_recruit.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/about/_map.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/contact/_contact.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/sass/module/about/_philosophy.scss",
+		"/Applications/MAMP/htdocs/stans_front/assets/js/common.js",
+		"/Applications/MAMP/htdocs/stans_front/.gitignore",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/sitewide/_button.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/structure/_footer.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/foundation/variable/_color.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/module/top/_recruit.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/module/top/_news.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/module/top/_products.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/module/top/_mission.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/neat/_neat.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/module/top/_hero.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/structure/_header.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/sitewide/_heading.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/foundation/variable/_z-index.scss",
+		"/Applications/MAMP/htdocs/STANS/gulpfile.js",
+		"/Users/wararyo/Library/Application Support/Sublime Text 3/Packages/TerminalView/README.md",
+		"/Applications/MAMP/htdocs/STANS/header.php",
+		"/Applications/MAMP/htdocs/STANS/assets/js/common.js",
+		"/Applications/MAMP/htdocs/STANS/stans.sublime-project",
+		"/Users/wararyo/Project/STANS-INC/Template/.gitignore",
+		"/Users/wararyo/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Applications/MAMP/htdocs/STANS/style.css",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/utility/_color.scss",
+		"/Applications/MAMP/htdocs/STANS/assets/sass/style.scss",
+		"/Applications/MAMP/htdocs/STANS/prepros-6.config",
+		"/Users/wararyo/Git/EclairTest/Plugins/UE4GitPlugin-2.2-beta/_config.yml",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/functions.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/follow.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/style.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/ad_article.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/single.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/loop.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/script.js",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/footer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/cat_lists.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/feed.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/share.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/sidebar.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/header.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/ad_sidebar.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/search.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/archive.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/page.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/materialMOD/home.php",
+		"/Users/wararyo/Desktop/6-5.c",
+		"/Users/wararyo/Desktop/6-6.c",
+		"/Users/wararyo/programming/4-4.c",
+		"/Users/wararyo/programming/4-4a.c",
+		"/Users/wararyo/Git/EclairCueMaker/EclairCueMaker/Assets/EclairCueMaker/Editor/CueSceneEditor.cs",
+		"/Users/wararyo/programming/4-3a.c",
+		"/Users/wararyo/programming/4-3.c",
+		"/Users/wararyo/programming/4-2.c",
+		"/Users/wararyo/programming/4-1.c",
+		"/Users/wararyo/programming/3-7.c",
+		"/Users/wararyo/programming/bug.c",
+		"/Users/wararyo/programming/3-6.c"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 98.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "EclairHP.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"navi",
+				"src/app/navigation/navigation.component.scss"
+			],
+			[
+				"gradient",
+				"assets/sass/foundation/mixin/_gradient.scss"
+			],
+			[
+				"color",
+				"assets/sass/foundation/variable/_color.scss"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"menu",
+				"assets/sass/structure/_menu.scss"
+			],
+			[
+				"conce",
+				"assets/sass/module/works/_concept.scss"
+			],
+			[
+				"style",
+				"style.css"
+			],
+			[
+				"fontsize",
+				"assets/sass/foundation/mixin/_fontsize.scss"
+			],
+			[
+				"fontis",
+				"assets/sass/utility/_fontsize.scss"
+			],
+			[
+				"font.scss",
+				"assets/sass/foundation/mixin/_fontsize.scss"
+			],
+			[
+				"font",
+				"node_modules/core-js/fn/string/fontsize.js"
+			],
+			[
+				"hero",
+				"assets/sass/structure/_hero.scss"
+			],
+			[
+				"width",
+				"assets/sass/foundation/mixin/_content-width.scss"
+			],
+			[
+				"he",
+				"header.php"
+			],
+			[
+				"comm",
+				"assets/js/common.js"
+			],
+			[
+				"footer",
+				"assets/sass/structure/_footer.scss"
+			],
+			[
+				"button",
+				"assets/sass/sitewide/_button.scss"
+			],
+			[
+				"recr",
+				"assets/sass/module/top/_recruit.scss"
+			],
+			[
+				"prod",
+				"assets/sass/module/top/_products.scss"
+			],
+			[
+				"recruit",
+				"assets/sass/module/top/_recruit.scss"
+			],
+			[
+				"produ",
+				"assets/sass/module/top/_products.scss"
+			],
+			[
+				"missi",
+				"assets/sass/module/top/_mission.scss"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"mission",
+				"assets/sass/module/top/_mission.scss"
+			],
+			[
+				"_color",
+				"assets/sass/foundation/variable/_color.scss"
+			],
+			[
+				"color.scss",
+				"assets/sass/foundation/variable/_color.scss"
+			],
+			[
+				"sty",
+				"assets/sass/style.scss"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"func",
+				"functions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
