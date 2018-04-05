@@ -27,7 +27,7 @@ var browser = require("browser-sync").create();
 var plumber = require('gulp-plumber');
 var notify = require('gulp-notify');
 
-var usage = ['','Gulpfile for STANS-INC',
+var usage = ['','Gulpfile non-PHP Project',
 	'Usage: gulp [ start | frontnote | sass | js ]',
 	'	Basic:',
 	'		start     : start browser-sync and auto-compiling',
@@ -64,6 +64,11 @@ gulp.task("html", function() {
         .pipe(gulp.dest("dist/"));
 });
 
+gulp.task("image", function() {
+    gulp.src(imagefiles)
+        .pipe(gulp.dest("dist/images/"));
+});
+
 gulp.task("frontnote", function() {
 	gulp.src(scssfiles)
 		.pipe(frontnote({
@@ -82,9 +87,10 @@ gulp.task("js", function() {
 });
 
 gulp.task("start",['server'], function() {
-    gulp.watch(jsfiles,["js","reload"]);
-    gulp.watch(scssfiles,["sass","reload"]);
-    gulp.watch(htmlfiles,["html","reload"]);
+    gulp.watch(jsfiles,["js"]);
+    gulp.watch(scssfiles,["sass"]);
+    gulp.watch(htmlfiles,["html"]);
+    gulp.watch(imagefiles,["image"]);
     gulp.watch("dist/**",["reload"]);
 });
 
