@@ -1,0 +1,16 @@
+.footer {
+	width: 100%;
+	margin-top: 160px + 80px;
+	color: $white;
+	background-color: #232627;
+	text-align: center;
+
+	img {
+		margin-top: -160px;
+		transform: translateX(5%);
+	}
+	p{
+		padding: 64px 0;
+		font-size: 1em;
+	}
+}

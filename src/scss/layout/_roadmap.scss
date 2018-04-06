@@ -1,0 +1,25 @@
+.roadmap {
+	width: 720px;
+	margin: 64px auto;
+	color: $white;
+
+	h2 {
+		margin-top: 36px;
+		font-size: 1.8em;
+		text-align: center;
+		font-weight: bold;
+		text-shadow: 0 2px 4px rgba($black, .2);
+	}
+
+	ul {
+		margin: 36px;
+	}
+
+	li {
+		line-height: 2em;
+		font-size: 1.4em;
+		font-weight: bold;
+		text-align: center;
+	}
+
+}

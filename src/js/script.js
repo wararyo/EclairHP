@@ -13,11 +13,17 @@ var onScroll = function() {
 }
 document.addEventListener('scroll', onScroll)
 
-// おわり
-
 var navigation = new Vue({
   el: '#nav',
   data: {
     currentSection: 0
   }
 });
+
+// おわり
+
+var pauseMovie = function () {
+  var $player = document.getElementById('movie-iframe').contentWindow;
+  $player.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+}
+
