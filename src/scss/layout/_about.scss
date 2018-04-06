@@ -1,7 +1,9 @@
 .about {
-
+	background: url("images/common/stripe.png");
+	background-size: 177px 151px;
 	> .container {
-		margin: 64px auto 72px;
+		margin: 0 auto ;
+		padding: 48px 0 72px;
 		position: relative;
 	}
 
@@ -19,7 +21,7 @@
 
 	h3 {
 		font-size: 2em;
-		margin-top: 80px;
+		margin-top: 96px;
 		margin-left: -20px;
 		text-shadow: 0 3px 6px rgba(0,0,0,.2);
 	}
@@ -29,7 +31,7 @@
 	height: 640px;
 	position: absolute;
 	right: 0;
-	top: -128px;
+	top: -80px;
 }
 
 .about-movie {
