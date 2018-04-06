@@ -39,6 +39,10 @@
 				width: 0;
 			}
 
+			&.active a {
+				background-color: $eclair-orange-light;
+			}
+
 			a {
 				display: flex;
 				align-items: center;

@@ -6,6 +6,8 @@
     <title>電撃少女エクレア 公式サイト</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name=”robots” content=”noindex”>
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   </head>
   <body>
 	<header class="header">
@@ -36,14 +38,14 @@
 		</div>
 	</header>
 	<div class="navigation-wrapper">
-	<nav class="navigation">
+	<nav id="nav" class="navigation">
 		<div class="container-wide">
 			<ul>
 				<li class="nav-top"><a href="#"><img src="images/navgation/silhouette.svg" alt="トップへ"></a></li>
-				<li class="nav-about"><a href="#about"><span>電撃少女</span><span>エクレアとは</span></a></li>
-				<li class="nav-character"><a href="#characters">キャラクター</a></li>
-				<li class="nav-gallery"><a href="#gallery">ギャラリー</a></li>
-				<li class="nav-roadmap"><a href="#roadmap">ロードマップ</a></li>
+				<li class="nav-about" v-bind:class="{active: currentSection == 0}"><a href="#about"><span>電撃少女</span><span>エクレアとは</span></a></li>
+				<li class="nav-character" :class="{active: currentSection == 1}"><a href="#characters">キャラクター</a></li>
+				<li class="nav-gallery" :class="{active: currentSection == 2}"><a href="#gallery">ギャラリー</a></li>
+				<li class="nav-roadmap" :class="{active: currentSection == 3}"><a href="#roadmap">ロードマップ</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -163,6 +165,7 @@
 	</footer>
 
     <!-- Scripts -->
+    <script src="js/script.js"></script>
     <!-- BrowserSync -->
     <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
@@ -217,14 +220,12 @@
         player.stopVideo();
       }
     </script>
-    <!-- Vue.js -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <!-- SweetScroll -->
     <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
     <script>
     	const sweetScroll = new SweetScroll({
   			trigger: "a[href^='#']",
-  			offset: -120,
+  			offset: -80,
   			duration: 500
 		});
     </script>
