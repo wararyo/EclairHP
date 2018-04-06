@@ -1,0 +1,15 @@
+@mixin mq($breakpoint: sp) {
+    @if $breakpoint == sp {
+        @media screen and (max-width: 767px) {
+            @content;
+        }
+    } @else if $breakpoint == tl {
+        @media screen and (max-width: 1024px) {
+            @content;
+        }
+    } @else if $breakpoint == pc {
+        @media screen and (min-width: 1025px) {
+            @content;
+        }
+    }
+}

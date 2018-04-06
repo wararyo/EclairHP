@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>電撃少女エクレア 公式サイト</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name=”robots” content=”noindex”>
   </head>
   <body>
 	<header class="header">
@@ -35,53 +36,65 @@
 		</div>
 	</header>
 	<nav class="navigation">
-		<ul class="container-wide">
-			<li class="nav-top"><a href="#"><img src="images/navgation/silhouette.svg" alt="トップへ"></a></li>
-			<li class="nav-about"><a href="#about"><span>電撃少女</span><span>エクレアとは</span></a></li>
-			<li class="nav-character"><a href="#characters">キャラクター</a></li>
-			<li class="nav-gallery"><a href="#gallery">ギャラリー</a></li>
-			<li class="nav-roadmap"><a href="#roadmap">ロードマップ</a></li>
-		</ul>
+		<div class="container-wide">
+			<ul>
+				<li class="nav-top"><a href="#"><img src="images/navgation/silhouette.svg" alt="トップへ"></a></li>
+				<li class="nav-about"><a href="#about"><span>電撃少女</span><span>エクレアとは</span></a></li>
+				<li class="nav-character"><a href="#characters">キャラクター</a></li>
+				<li class="nav-gallery"><a href="#gallery">ギャラリー</a></li>
+				<li class="nav-roadmap"><a href="#roadmap">ロードマップ</a></li>
+			</ul>
+		</div>
 	</nav>
 	<div class="movie">
+		<a href="#">
+			<div id="player"></div>
+		</a>
 	</div>
 	<div id="about" class="about">
-		<h2>電撃少女エクレアとは</h2>
-		<p>
-			電撃少女エクレアは、<br>
-			スピード感・爽快感のある動き<br>
-			を目指した3Dアクションゲーム。
-		</p>
-		<p>
-			電気を操る少女 「エクレア」は、彼女を救った<br>
-			『ギア』の研究者「オレイエット」から依頼を受ける。<br>
-			なんでも、大いなる力を持つ『時空のギア』の一部を<br>
-			武装ギア集団『アーミーギア』から<br>
-			回収して欲しいとのこと。
-		</p>
-		<p>
-			電撃を操るギア「ELE-GEAR」を駆使しながら、<br>
-			彼女はアーミーギアへ立ち向かう。
-		</p>
+		<div class="section-header"><h2>電撃少女エクレアとは</h2></div>
+		<div class="container">
+			<p>
+				<b>電撃少女エクレア</b>は、<br>
+				<span class="emphasized">スピード感・爽快感のある動き</span><br>
+				を目指した3Dアクションゲーム。
+			</p>
+			<p>
+				電気を操る少女 「<b>エクレア</b>」は、彼女を救った<br>
+				『<b>ギア</b>』の研究者「<b>オレイエット</b>」から依頼を受ける。<br>
+				なんでも、大いなる力を持つ『<b>時空のギア</b>』の一部を<br>
+				武装ギア集団『<b>アーミーギア</b>』から<br>
+				回収して欲しいとのこと。
+			</p>
+			<p>
+				電撃を操るギア「<b>ELE-GEAR</b>」を駆使しながら、<br>
+				彼女はアーミーギアへ立ち向かう。
+			</p>
 
-		<h3>エクレア最大のアクション「電撃移動」</h3>
-		<p>
-			ELE-GEARを装備したエクレアができる技の中で最も重要なのが
-			「電撃移動」です。
-		</p>
-		<p>
-			これは、エクレア自らが電気体となり、
-			あらゆる場所に高速で移動することができる技です。
-		</p>
-		<p>
-			電撃移動を行うにはあらかじめ
-			”ボルト”と呼ばれる装置を移動したい場所に投げます。
-			電撃移動を始めると、
-			エクレアはボルトに向かって引き寄せられます。
-		</p>
+			<img src="images/about/eclair.png" alt="エクレア" height=640 class="about-eclair">
+
+			<h3>エクレア最大のアクション「電撃移動」</h3>
+			<div class="about-movie">
+				<iframe width="480" height="360" src="https://www.youtube.com/embed/autYRqHTAlI?rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<p>
+				ELE-GEARを装備したエクレアができる技の中で<br>最も重要なのが
+				「<span class="emphasized">電撃移動</span>」です。
+			</p>
+			<p>
+				これは、エクレア自らが<b>電気体</b>となり、<br>
+				あらゆる場所に高速で移動することができる技です。
+			</p>
+			<p>
+				電撃移動を行うにはあらかじめ<br>
+				「<b>ボルト</b>」と呼ばれる装置を移動したい場所に投げます。<br>
+				電撃移動を始めると、<br>
+				エクレアはボルトに向かって引き寄せられます。
+			</p>
+		</div>
 	</div>
 	<div id="characters" class="characters">
-		<h2>キャラクター</h2>
+		<div class="section-header cyan"><h2>キャラクター</h2></div>
 		<div class="character">
 			<h3>エクレア</h3>
 			<p>
@@ -148,5 +161,55 @@
     <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
 //]]></script>
+	<!-- Youtube -->
+	<script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '360',
+          width: '640',
+          videoId: 'M7lc1UVf-VE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          },
+          playerVars: {
+          	controls: 0,
+          	autoplay: 1,
+          	showinfo: 0,
+          	loop: 1
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+        event.target.mute();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
   </body>
 </html>

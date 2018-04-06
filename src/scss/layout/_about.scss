@@ -1,0 +1,42 @@
+.about {
+
+	> .container {
+		margin: 64px auto 72px;
+		position: relative;
+	}
+
+	p {
+		margin: 24px 0;
+		font-size: 1.4em;
+		line-height: 1.6em;
+		text-shadow: 0 1px 2px rgba(0,0,0,.1);
+	}
+	.emphasized {
+		font-size: 120%;
+		font-weight: bold;
+		text-shadow: 0 3px 6px rgba(0,0,0,.2);
+	}
+
+	h3 {
+		font-size: 2em;
+		margin-top: 80px;
+		margin-left: -20px;
+		text-shadow: 0 3px 6px rgba(0,0,0,.2);
+	}
+}
+
+.about-eclair {
+	height: 640px;
+	position: absolute;
+	right: 0;
+	top: -128px;
+}
+
+.about-movie {
+	float:right;
+	margin-right: -64px;
+	height: 360px;
+	width: 480px;
+	transform: rotate(6deg);
+	box-shadow: 0 3px 6px rgba($black,.3);
+}
