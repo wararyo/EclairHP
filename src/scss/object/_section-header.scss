@@ -4,8 +4,10 @@
 	height: 104px;
 	display: flex;
 	align-items: flex-end;
-	background-color: #555;
+	background: url("images/common/stripe-black.png") #555;
+	background-size: 177px 151px;
 	box-shadow: 0 2px 4px rgba($black, .2);
+	animation: background-move 2s linear 0s infinite normal none running;
 
 	h2 {
 		@include content-width;
@@ -31,5 +33,14 @@
 	}
 	&.yellow:before {
 		background-color: $eclair-yellow;
+	}
+}
+
+@keyframes background-move {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 36px 0;
 	}
 }

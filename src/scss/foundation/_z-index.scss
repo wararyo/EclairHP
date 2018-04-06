@@ -6,9 +6,21 @@ $z:(
 );
 
 .navigation {
-	z-index: index($z,nav);
+	z-index: index($z, nav);
 }
 
 .about > .container {
-	z-index: index($z,contents);
+	z-index: index($z, contents);
+}
+
+.movie iframe {
+	z-index: index($z, image-back);
+}
+
+.movie a {
+	z-index: index($z, contents);
+}
+
+.movie-play {
+	z-index: index($z, image-fore);
 }

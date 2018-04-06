@@ -1,14 +1,14 @@
 @mixin mq($breakpoint: sp) {
     @if $breakpoint == sp {
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 599px) {
             @content;
         }
     } @else if $breakpoint == tl {
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 959px) and (min-width: 600px) {
             @content;
         }
-    } @else if $breakpoint == pc {
-        @media screen and (min-width: 1025px) {
+    } @else if $breakpoint == pc-narrow {
+        @media screen and (max-width: 1280px) and (min-width: 960px) {
             @content;
         }
     }
