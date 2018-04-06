@@ -96,28 +96,32 @@
 	</div>
 	<div id="characters" class="characters">
 		<div class="section-header cyan"><h2>キャラクター</h2></div>
-		<div class="character">
-			<h3>エクレア</h3>
-			<p>
-				「ELE-GEAR」を操る少女。<br>
-				オレイエットの依頼を受けアーミーギアを倒しに行く。
-			</p>
-			<p>
-				焼き芋が好き。
-			</p>
-		</div>
-		<div class="character">
-			<h3>ビクター・オレイエット</h3>
-			<p>
-				「ギア」と呼ばれる不思議な装置を研究している男。<br>
-				襲撃を受け気を失ったエクレアを助け、彼女に「時空のギア」の回収を依頼する。
-			</p>
-			<p>
-				エクレアの戦闘を無線でサポートする。
-			</p>
-		</div>
-		<div class="and-so-on">
-			<p>and so on...</p>
+		<div class="container">
+			<div class="character">
+				<h3>エクレア</h3>
+				<img src="images/characters/eclair.png" height=480 alt="エクレア" class="characters-image">
+				<p>
+					「ELE-GEAR」を操る少女。<br>
+					オレイエットの依頼を受けアーミーギアを倒しに行く。
+				</p>
+				<p>
+					焼き芋が好き。
+				</p>
+			</div>
+			<div class="character">
+				<h3>ビクター・オレイエット</h3>
+				<img src="images/characters/oreillette.png" height=480 alt="オレイエット" class="characters-image">
+				<p>
+					「ギア」と呼ばれる不思議な装置を研究している男。<br>
+					襲撃を受け気を失ったエクレアを助け、彼女に「時空のギア」の回収を依頼する。
+				</p>
+				<p>
+					エクレアの戦闘を無線でサポートする。
+				</p>
+			</div>
+			<div class="and-so-on">
+				<p>and so on...</p>
+			</div>
 		</div>
 	</div>
 	<div id="gallery" class="gallery">
@@ -212,6 +216,17 @@
       function stopVideo() {
         player.stopVideo();
       }
+    </script>
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- SweetScroll -->
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+    <script>
+    	const sweetScroll = new SweetScroll({
+  			trigger: "a[href^='#']",
+  			offset: -120,
+  			duration: 500
+		});
     </script>
   </body>
 </html>
