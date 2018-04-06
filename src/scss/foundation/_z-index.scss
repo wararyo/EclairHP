@@ -1,0 +1,14 @@
+$z:(
+	image-back,
+	contents,
+	image-fore,
+	nav
+);
+
+.navigation {
+	z-index: index($z,nav);
+}
+
+.about > .container {
+	z-index: index($z,contents);
+}
