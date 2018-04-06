@@ -1,6 +1,8 @@
 .characters {
 	background: url("images/common/stripe.png");
 	background-size: 177px 151px;
+	box-shadow: 0 2px 4px rgba($black, .2);
+
 	> .container {
 		margin: 0 auto ;
 		padding: 48px 0 72px;
@@ -32,8 +34,9 @@
 		font-size: 2em;
 		padding-top: 48px;
 		font-weight: bold;
-		transform: translateX(5%);
-		p {		
+		p {	
+			display: inline-block;
+			transform: translateX(5%);
 			text-shadow: 0 3px 6px rgba($black, .2);
 		}
 	}

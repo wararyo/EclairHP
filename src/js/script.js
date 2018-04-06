@@ -3,7 +3,8 @@ var onScroll = function() {
   var headings = document.getElementsByTagName('h2');
   for (var i = headings.length - 1; i >= 0; i--) {
   	var posY = headings[i].getBoundingClientRect().top;
-  	if(posY < 320) {
+  	var windowHeight = document.documentElement.clientHeight;
+  	if(posY < windowHeight * 0.5) {
   		navigation.currentSection = i;
   		return;
   	}

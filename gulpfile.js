@@ -8,9 +8,9 @@ Gulpfile wararyo non-PHP Project
 Settings
 ===============*/
 
-var htmlfiles = "src/**.html"
-var jsfiles = "src/js/**.js";
-var scssfiles = "src/scss/**.scss";
+var htmlfiles = "src/**/*.html"
+var jsfiles = "src/js/**/*.js";
+var scssfiles = "src/scss/**/*.scss";
 var imagefiles = "src/images/**";
 
 //var server = "localhost:8888";
