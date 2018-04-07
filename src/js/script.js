@@ -47,6 +47,7 @@ function onYouTubeIframeAPIReady() {
       controls: 0,
       showinfo: 0,
       disablekb: 1,
+      rel: 0
     }
   });
   etoPlayer = new YT.Player('about-player', {
@@ -72,13 +73,17 @@ function onPlayerReady(event) {
   event.target.mute();
 }
 
+var loopCount = 0;
 // 5. The API calls this function when the player's state changes.
 //    The function indicates that when playing a video (state=1),
 //    the player should play for six seconds and then stop.
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.ENDED) {
-    event.target.seekTo(0,true);
-    event.target.playVideo();
+    if(loopCount < 20) {//放置されても通信量ヤバくならない
+      event.target.seekTo(0,false);
+      event.target.playVideo();
+      loopCount++;
+    }
   }
 }
 
