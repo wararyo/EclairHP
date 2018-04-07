@@ -9,4 +9,9 @@ h1,h2,h3,h4 {
 
 body {
 	background-color: $eclair-orange;
+	background-image: url("images/bg/1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
 }
