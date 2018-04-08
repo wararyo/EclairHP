@@ -32,7 +32,7 @@
 		background-color: $eclair-cyan;
 	}
 	&.yellow:before {
-		background-color: $eclair-yellow;
+		background-color: $eclair-yellow-dark;
 	}
 }
 
@@ -71,7 +71,7 @@
 			height: 4px;
 		}
 		h2 {
-			margin: 0 0 0 48px;
+			margin: 0 0 0 50px;
 			font-size: 1.6em;
 			transform: translateY(-1px);
 		}

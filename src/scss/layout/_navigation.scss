@@ -7,7 +7,7 @@
 	top:0;
 	width: 100%;
 	height: 80px;
-	background-color: $eclair-yellow-dark;
+	background-color: $eclair-orange;
 	box-shadow: 0px 4px 8px rgba($black, .16);
 
 	> .container-wide {
@@ -40,7 +40,9 @@
 			}
 
 			&.active a {
-				background-color: $eclair-orange-light;
+				background-color: $white;
+				color: $eclair-orange;
+				box-shadow: 0 0 0 8px $eclair-yellow inset;
 			}
 
 			a {
@@ -54,9 +56,10 @@
 				color: $white;
 				text-decoration: none;
 				font-weight: bold;
-				transition: 0.1s;
+				transition: box-shadow 0.4s, all 0.1s;
 				&:hover {
-					background-color: $eclair-orange;
+					background-color: $eclair-orange-light;
+					color: $white;//activeなやつをhoverしたとき用
 				}
 			}
 			span {
@@ -188,5 +191,10 @@
 		position: sticky;
 		top: 0;
 		color: white;
+		img {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
 	}
 }

@@ -44,7 +44,7 @@
 		</div>
 	</header>
 	<div class="navigation-wrapper">
-		<a class="hamburger-mobile" onclick="toggleNav()">≡</a>
+		<a class="hamburger-mobile" onclick="toggleNav()"><img src="images/navgation/hamburger.svg" alt="メニュー"></a>
 	<nav id="nav" class="navigation" v-bind:class="{'shown-in-mobile': shownInMobile}">
 		<div class="container-wide">
 			<ul>
@@ -57,6 +57,7 @@
 			</ul>
 		</div>
 	</nav>
+	<div class="horizon"></div>
 	<div class="movie">
 		<a href="https://www.youtube.com/embed/autYRqHTAlI?autoplay=1" rel="shadowbox;width=960;height=540" onclick="pauseMovie()">
 			<img src="images/movie/play.svg" width=56 height=56 alt="動画を再生" class="movie-play">
@@ -64,7 +65,7 @@
 		<div id="movie-player"></div>
 	</div>
 	<div id="about" class="about">
-		<div class="section-header"><h2>電撃少女エクレアとは</h2></div>
+		<div class="section-header yellow"><h2>電撃少女エクレアとは</h2></div>
 		<div class="container">
 			<p>
 				<b>電撃少女エクレア</b>は、<br>
@@ -120,7 +121,7 @@
 				</p>
 			</div>
 			<div class="character">
-				<h3>ビクター・オレイエット</h3>
+				<h3><span>ビクター・</span><span>オレイエット</span></h3>
 				<img src="images/characters/oreillette.png" height=480 alt="オレイエット" class="characters-image">
 				<p>
 					「ギア」と呼ばれる不思議な装置を研究している男。<br>

@@ -27,7 +27,14 @@ $z:(
 .movie-play {
 	z-index: index($z, image-fore);
 }
-
+@include mq(tl){
+	.about-eclair{
+		z-index: index($z,image-back);
+	}
+	.about p {
+		z-index: index($z, contents);
+	}
+}
 @include mq(sp){
 	.section-header {
 		z-index: index($z, section-header-sp);
