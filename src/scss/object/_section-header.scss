@@ -44,3 +44,20 @@
 		background-position: 36px 0;
 	}
 }
+
+@include mq(sp){
+	.section-header {
+		height: 56px;
+		position: sticky;
+		top: 0;
+		align-items: center;
+		&:before {
+			height: 4px;
+		}
+		h2 {
+			margin: 0 0 0 64px;
+			font-size: 1.8em;
+			transform: translateY(-1px);
+		}
+	}
+}

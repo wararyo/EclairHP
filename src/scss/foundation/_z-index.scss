@@ -2,7 +2,10 @@ $z:(
 	image-back,
 	contents,
 	image-fore,
-	nav
+	nav,
+	section-header-sp,
+	nav-top-sp,
+	hamburger-sp
 );
 
 .navigation {
@@ -23,4 +26,16 @@ $z:(
 
 .movie-play {
 	z-index: index($z, image-fore);
+}
+
+@include mq(sp){
+	.section-header {
+		z-index: index($z, section-header-sp);
+	}
+	.nav-top {
+		z-index: index($z, nav-top-sp);
+	}
+	.hamburger-mobile {
+		z-index: index($z, hamburger-sp);
+	}
 }

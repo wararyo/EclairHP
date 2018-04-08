@@ -46,6 +46,7 @@
 			a {
 				display: flex;
 				align-items: center;
+				align-content: center;
 				justify-content: center;
 				flex-wrap: wrap;
 				width: 100%;
@@ -60,6 +61,7 @@
 			}
 			span {
 				display: inline-block;
+				margin: 0.1em 0;
 			}
 		}
 	}
@@ -86,4 +88,105 @@
 
 .nav-roadmap {
 	flex: 2;
+}
+
+.toolbar-mobile {
+	display: none;
+}
+.hamburger-mobile {
+	display: none;
+}
+
+@include mq(pc-narrow){
+	.nav-about,
+	.nav-character,
+	.nav-gallery,
+	.nav-roadmap {
+		flex: 1;
+	}
+
+	.navigation ul li {
+		font-size: 1.8em;
+	}
+}
+@include mq(tl){
+	.navigation ul li {
+		font-size: 1.6em;
+	}
+}
+@include mq(sp){
+	.navigation-wrapper{
+		/*&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			transition: background-color .2s ease-in;
+			background-color: rgba($black,.0);
+		}
+		&.shown-in-mobile:after {
+			background-color: rgba($black,.3);
+		}*/
+	}
+
+	.navigation {
+		height: 56px;
+		padding: 0;
+		transition: height .2s ease-out;
+		overflow: hidden;
+
+		&.shown-in-mobile {
+			height: 56 * 6px;
+		}
+	}
+	.navigation ul {
+		flex-direction: column;
+
+		li {
+			height: 56px;
+			font-size: 1.4em;
+			&:after {
+				margin: 0 24px;
+				width: calc(100% - 48px);
+				height: 1px;
+				right: auto;
+				top: auto;
+				bottom: 0;
+			}
+			&.nav-top {
+				width: 100%;
+				a {
+					width: 100%;
+					&:after {
+						content: "トップ";
+						margin-right: 24px;
+					}
+				}
+				img {
+					height: 48px;
+				}
+			}
+			&:first-child:after {
+				width: 0;
+			}
+		}
+	}
+
+	.toolbar-mobile {
+		display: block;
+	}
+	.hamburger-mobile {
+		display: block;
+		height: 56px;
+		margin-bottom: -56px;
+		width: 100%;
+		line-height: 48px;
+		font-size: 2em; 
+		position: sticky;
+		top: 0;
+		color: white;
+	}
 }

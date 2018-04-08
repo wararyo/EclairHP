@@ -14,3 +14,10 @@
 		font-size: 1em;
 	}
 }
+
+@include mq(sp){
+	.footer img {
+		width: calc(100% - 48px);
+		transform: translateX(0);
+	}
+}

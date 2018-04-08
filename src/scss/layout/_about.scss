@@ -1,6 +1,8 @@
+/* 電撃少女エクレアとは */
 .about {
 	background: url("images/common/stripe.png");
 	background-size: 177px 151px;
+	overflow-x: hidden;
 	box-shadow: 0 2px 4px rgba($black, .2);
 	
 	> .container {
@@ -43,4 +45,15 @@
 	width: 480px;
 	transform: rotate(6deg);
 	box-shadow: 0 3px 6px rgba($black,.3);
+}
+
+@include mq(sp){
+	.about {
+		overflow-x: visible;
+	}
+
+	.about-movie {
+		float: none;
+		display: none;
+	}
 }

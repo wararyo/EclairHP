@@ -1,5 +1,7 @@
 /* header */
 
+//枠
+
 .header {
 	width: 100%;
 	height: 640px;
@@ -12,6 +14,35 @@
 	height: 100%;
 	margin: 0 auto;
 }
+
+@include mq(pc-narrow) {
+	.header-container {
+		width: 100%;
+		max-width: 1024px;
+	}
+}
+@include mq(tl) {
+	.header {
+		height: auto;
+	}
+	.header-container {
+		width: 100%;
+		padding: 24px 0;
+		text-align: center;
+	}
+}
+@include mq(sp){
+	.header {
+		height: auto;
+	}
+	.header-container {
+		width: 100%;
+		padding: 24px 0;
+		text-align: center;
+	}
+}
+
+//中身
 
 .header-qpic {
 	position: absolute;
@@ -74,5 +105,89 @@
 		opacity: .8;
 		transform: translateY(-1px);
 		box-shadow: 0 3px 6px rgba($black, .2);
+	}
+}
+
+@include mq(pc-narrow){
+	.header-logo {
+		left: 30px;
+	}
+	.header-detail {
+		left: 48px;
+	}
+	.header-info {
+		right: 48px;
+	}
+}
+
+@include mq(tl){
+	.header-qpic {
+		top: 24px;
+		left: 32px;
+		img {
+			height: 36px;
+		}
+	}
+	.header-logo {
+		position: static;
+		img {
+			height: auto;
+			width: calc(100% - 48px);
+			max-width: 600px;
+		}
+	}
+	.header-detail {
+		position: static;
+		margin: 32px auto;
+		width: calc(100% - 32px);
+		span {
+			display: inline-block;
+			margin: 4px 0;
+		}
+	}
+	.header-info {
+		position: static;
+		width: calc(100% - 32px);
+		display: flex;
+		justify-content: space-around;
+		margin: 48px auto 16px;
+	}
+	.header-banner img {
+		margin: 0;
+	}
+}
+
+@include mq(sp){
+	.header-qpic {
+		top: 24px;
+		left: 32px;
+		img {
+			height: 36px;
+		}
+	}
+	.header-logo {
+		position: static;
+		img {
+			height: auto;
+			width: calc(100% - 48px);
+			max-width: 600px;
+		}
+	}
+	.header-detail {
+		position: static;
+		margin: 32px auto;
+		width: calc(100% - 32px);
+		span {
+			display: inline-block;
+			margin: 4px 0;
+		}
+	}
+	.header-message {
+		font-size: 1.6em;
+	}
+	.header-info {
+		position: static;
+		width: calc(100% - 32px);
+		margin: 48px auto 16px;
 	}
 }

@@ -16,11 +16,17 @@ document.addEventListener('scroll', onScroll)
 var navigation = new Vue({
   el: '#nav',
   data: {
-    currentSection: 0
+    currentSection: 0,
+    shownInMobile: false
   }
 });
 
 // おわり
+
+//モバイル時ハンバーガーアイコン
+var toggleNav = function() {
+  navigation.shownInMobile = !navigation.shownInMobile;
+};
 
 // Youtube
 
@@ -67,20 +73,16 @@ function onYouTubeIframeAPIReady() {
   });
 }
 
-// 4. The API will call this function when the video player is ready.
 function onPlayerReady(event) {
   event.target.playVideo();
   event.target.mute();
 }
 
 var loopCount = 0;
-// 5. The API calls this function when the player's state changes.
-//    The function indicates that when playing a video (state=1),
-//    the player should play for six seconds and then stop.
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.ENDED) {
     if(loopCount < 20) {//放置されても通信量ヤバくならない
-      event.target.seekTo(0,false);
+      event.target.seekTo(0,true);
       event.target.playVideo();
       loopCount++;
     }
