@@ -60,7 +60,7 @@
 	<div class="horizon"></div>
 	<div class="movie">
 		<a href="https://www.youtube.com/embed/autYRqHTAlI?autoplay=1" rel="shadowbox;width=960;height=540" onclick="pauseMovie()">
-			<img src="images/movie/play.svg" width=56 height=56 alt="動画を再生" class="movie-play">
+			<img src="images/movie/play.svg" width=64 height=64 alt="動画を再生" class="movie-play">
 		</a>
 		<div id="movie-player"></div>
 	</div>
@@ -202,5 +202,21 @@
   			duration: 500
 		});
     </script>
+
+    <!-- SVG Effect -->
+    <svg height="0">
+	<filter id="drop-shadow">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"></feGaussianBlur>
+        <feColorMatrix result="matrixOut" in="offOut" type="matrix" values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.25 0"></feColorMatrix>
+        <feOffset dx="0" dy="2" result="offsetblur"></feOffset>
+        <feMerge>
+            <feMergeNode></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
+        </feMerge>
+    </filter>
+	</svg>
   </body>
 </html>

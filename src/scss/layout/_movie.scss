@@ -45,4 +45,6 @@
 	top: 50%;
 	transform: translate(-50%,-50%);
 	transition: .2s ease-out;
+	filter: url(#drop-shadow);
+	-webkit-filter: drop-shadow( 0px 2px 4px rgba($black, .25) );
 }

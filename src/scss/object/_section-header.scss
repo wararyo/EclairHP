@@ -4,10 +4,10 @@
 	height: 104px;
 	display: flex;
 	align-items: flex-end;
-	background: url("images/common/stripe-black.png") #555;
-	background-size: 177px 151px;
+	background: url("images/common/polkadot.png") #444;
+	background-size: 48px 48px;
 	box-shadow: 0 2px 4px rgba($black, .2);
-	animation: background-move 2s linear 0s infinite normal none running;
+	animation: background-move 4s linear 0s infinite normal none running;
 
 	h2 {
 		width: 1024px;
@@ -41,7 +41,7 @@
 		background-position: 0 0;
 	}
 	100% {
-		background-position: 36px 0;
+		background-position: 47px -47px;
 	}
 }
 @include mq(pc-narrow){

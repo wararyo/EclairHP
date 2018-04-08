@@ -1,1 +1,12 @@
-<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56"><defs><style>.cls-1{fill:#fff;}</style></defs><title>play</title><path class="cls-1" d="M43,26.41,21.68,13,19,14.59V41.41L21.68,43,43,29.59Z"/><path class="cls-1" d="M28,4A24,24,0,1,1,4,28,24,24,0,0,1,28,4m0-4A28,28,0,1,0,56,28,28,28,0,0,0,28,0Z"/></svg>
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>play</title>
+  <path class="cls-1" d="M47,30.41,25.678,17,23,18.59V45.41L25.678,47,47,33.59Z"/>
+  <path class="cls-1" d="M32,5A27,27,0,1,1,5,32,27.031,27.031,0,0,1,32,5m0-5A32,32,0,1,0,64,32,32,32,0,0,0,32,0Z"/>
+</svg>
