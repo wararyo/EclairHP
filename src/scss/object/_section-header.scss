@@ -10,7 +10,7 @@
 	animation: background-move 2s linear 0s infinite normal none running;
 
 	h2 {
-		@include content-width;
+		width: 1024px;
 		margin: 0 auto 16px;
 		font-size: 2.8em;
 		color: white;
@@ -44,19 +44,35 @@
 		background-position: 36px 0;
 	}
 }
-
+@include mq(pc-narrow){
+	.section-header {
+		h2 {
+			width: 960px;
+			transform: translateX(0);
+		}
+	}
+}
+@include mq(tl){
+	.section-header {
+		h2 {
+			width: calc(100% - 32px);
+			transform: translateX(0);
+		}
+	}
+}
 @include mq(sp){
 	.section-header {
 		height: 56px;
 		position: sticky;
 		top: 0;
 		align-items: center;
+		box-shadow: none;
 		&:before {
 			height: 4px;
 		}
 		h2 {
-			margin: 0 0 0 64px;
-			font-size: 1.8em;
+			margin: 0 0 0 48px;
+			font-size: 1.6em;
 			transform: translateY(-1px);
 		}
 	}

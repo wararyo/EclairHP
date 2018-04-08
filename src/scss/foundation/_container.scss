@@ -20,7 +20,7 @@
 }
 @include mq(tl){
 	.container {
-		width: 100%;
+		width: calc(100% - 32px);
 		margin: 0 auto;
 	}
 	.container-wide {

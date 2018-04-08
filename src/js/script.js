@@ -1,3 +1,17 @@
+//モバイル端末かどうか
+var isMobile() = function () {
+  // iPhone
+  if(ua.indexOf('iphone') > -1) return true;
+  // iPad
+  if(ua.indexOf('ipad') > -1) return true;
+  // Android
+  if(ua.indexOf('android') > -1) return true;
+  // Other
+  if(ua.indexOf('mobile') > -1) return true;
+
+  return false;
+};
+
 // 見てる見出しによってナビゲーションの見た目を変えるやつ
 var onScroll = function() {
   var headings = document.getElementsByTagName('h2');

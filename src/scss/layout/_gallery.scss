@@ -9,14 +9,14 @@
 		text-shadow: 0 2px 4px rgba($black, .2);
 	}
 
-	> .container {
+	> .gallery-container {
+		max-width: 1024px;
+		width: auto;
+		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: center;
+		background-color: rgba($black, .2);
 		box-shadow: 0 2px 4px rgba($black, .2);
-	}
-
-	a {
-
 	}
 }

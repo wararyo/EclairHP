@@ -3,7 +3,7 @@
 	background: url("images/common/stripe.png");
 	background-size: 177px 151px;
 	box-shadow: 0 2px 4px rgba($black, .2);
-	//overflow-x: hidden;
+	overflow-x: hidden;
 
 	> .container {
 		margin: 0 auto ;
@@ -50,4 +50,21 @@
 
 .characters-image {
 	float: right;
+}
+
+@include mq(pc-narrow){
+	.characters {
+		h3 {
+			margin-left: 0;
+		}
+	}
+}
+@include mq(sp){
+	.characters {
+		margin-top: 0;
+		overflow-x: visible;//hiddenだとstickyしなくなるクソバグ早く治せ
+		h3 {
+			margin-left: 0;
+		}
+	}
 }
