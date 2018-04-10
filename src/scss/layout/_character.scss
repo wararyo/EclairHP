@@ -73,6 +73,9 @@
 	.characters {
 		margin-top: 0;
 		overflow-x: visible;//hiddenだとstickyしなくなるクソバグ早く治せ
+		p {
+			font-size: 1.2em;
+		}
 		h3 {
 			margin-left: 0;
 		}
