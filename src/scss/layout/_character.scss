@@ -16,6 +16,9 @@
 		font-size: 1.4em;
 		line-height: 1.6em;
 		text-shadow: 0 1px 2px rgba(0,0,0,.1);
+		span {
+			display: inline-block;
+		}
 	}
 	.emphasized {
 		font-size: 120%;
