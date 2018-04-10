@@ -84,12 +84,13 @@
 				彼女はアーミーギアへ立ち向かう。
 			</p>
 
-			<img src="images/about/eclair.png" alt="エクレア" height=640 class="about-eclair">
+			<img v-if="!isPhone" src="images/about/eclair.png" alt="エクレア" height=640 class="about-eclair">
 
 			<h3>エクレア最大のアクション「電撃移動」</h3>
 			<div class="about-movie">
 				<div id="about-player"></div>
 			</div>
+			<img v-if="isPhone" src="images/about/eto.gif" alt="エクレア" height=320 class="about-gif">
 			<p>
 				ELE-GEARを装備したエクレアができる技の中で<br>最も重要なのが
 				「<span class="emphasized">電撃移動</span>」です。

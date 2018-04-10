@@ -1,15 +1,21 @@
-//モバイル端末かどうか
-var isMobile() = function () {
+var ua = navigator.userAgent;
+//携帯かどうか
+var isPhone = function () {
   // iPhone
-  if(ua.indexOf('iphone') > -1) return true;
-  // iPad
-  if(ua.indexOf('ipad') > -1) return true;
+  if(ua.indexOf('iPhone') > -1) return true;
   // Android
-  if(ua.indexOf('android') > -1) return true;
+  if(ua.indexOf('Android') > -1) return true;
   // Other
-  if(ua.indexOf('mobile') > -1) return true;
+  if(ua.indexOf('Mobile') > -1) return true;
 
   return false;
+}
+//モバイル端末かどうか タブレット端末含む
+var isMobile = function () {
+  // iPad
+  if(ua.indexOf('iPad') > -1) return true;
+
+  return isPhone();
 };
 
 // 見てる見出しによってナビゲーションの見た目を変えるやつ
@@ -35,6 +41,16 @@ var navigation = new Vue({
   }
 });
 
+var about = new Vue({
+  el: '#about',
+  computed: {
+    isPhone: function () {
+      console.log("hoge");
+      return isPhone();
+    }
+  }
+});
+
 // おわり
 
 //モバイル時ハンバーガーアイコン
@@ -43,12 +59,13 @@ var toggleNav = function() {
 };
 
 // Youtube
+if(!isMobile()) {//携帯だったらスクリプト読まないぜ
+  var tag = document.createElement('script');
 
-var tag = document.createElement('script');
-
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+}
 
 //ナビゲーション下の動画
 var moviePlayer;
