@@ -8,6 +8,7 @@
     <meta name=”robots” content=”noindex”>
     <!-- Vue.js -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-lazyload/vue-lazyload.js"></script>
     <!-- ShadowBox -->
     <link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css">
     <script type="text/javascript" src="shadowbox/shadowbox.js"></script>
@@ -64,7 +65,7 @@
 		</a>
 		<div id="movie-player"></div>
 	</div>
-	<div id="about" class="about">
+	<div id="about" class="about" v-lazy-container="{ selector: 'img' }">
 		<div class="section-header yellow"><h2>電撃少女エクレアとは</h2></div>
 		<div class="container">
 			<p>
@@ -94,14 +95,14 @@
 				<span>彼女はアーミーギアへ立ち向かう。</span>
 			</p>
 
-			<img v-if="!isPhone" src="images/about/eclair.png" alt="エクレア" height=640 class="about-eclair">
+			<img v-if="!isPhone" data-src="images/about/eclair.png" alt="エクレア" height=640 class="about-eclair">
 
 			<h3><span>エクレア最大の</span>
 				<span>アクション「電撃移動」</span></h3>
 			<div class="about-movie">
 				<div id="about-player"></div>
 			</div>
-			<img v-if="isPhone" src="images/about/eto.gif" alt="エクレア" height=320 class="about-gif">
+			<img v-if="isPhone" data-src="images/about/eto.gif" alt="エクレア" height=320 class="about-gif">
 			<p>
 				<span>ELE-GEARを装備した</span>
 				<span>エクレアができる技の中で</span>
@@ -124,12 +125,12 @@
 			</p>
 		</div>
 	</div>
-	<div id="characters" class="characters">
+	<div id="characters" class="characters" v-lazy-container="{ selector: 'img' }">
 		<div class="section-header cyan"><h2>キャラクター</h2></div>
 		<div class="container">
 			<div class="character">
 				<h3>エクレア</h3>
-				<img src="images/characters/eclair.png" height=480 alt="エクレア" class="characters-image">
+				<img data-src="images/characters/eclair.png" height=480 alt="エクレア" class="characters-image">
 				<p>
 					「ELE-GEAR」を操る少女。<br>
 					<span>オレイエットの依頼を受け</span>
@@ -141,7 +142,7 @@
 			</div>
 			<div class="character">
 				<h3><span>ビクター・</span><span>オレイエット</span></h3>
-				<img src="images/characters/oreillette.png" height=480 alt="オレイエット" class="characters-image">
+				<img data-src="images/characters/oreillette.png" height=480 alt="オレイエット" class="characters-image">
 				<p>
 					<span>「ギア」と呼ばれる</span>
 					<span>不思議な装置を研究している男。</span><br>
@@ -161,17 +162,17 @@
 			</div>
 		</div>
 	</div>
-	<div id="gallery" class="gallery">
+	<div id="gallery" class="gallery" v-lazy-container="{ selector: 'img' }">
 		<h2>ギャラリー</h2>
 		<div class="gallery-container">
-			<a href="images/gallery/1.jpg" rel="shadowbox[gallery]"><img src="images/gallery/1.thumb.jpg" alt="1章コンセプトアート"></a>
-			<a href="images/gallery/2.jpg" rel="shadowbox[gallery]"><img src="images/gallery/2.thumb.jpg" alt="ボルト"></a>
-			<a href="images/gallery/3.jpg" rel="shadowbox[gallery]"><img src="images/gallery/3.thumb.jpg" alt="避雷針"></a>
-			<a href="images/gallery/4.jpg" rel="shadowbox[gallery]"><img src="images/gallery/4.thumb.jpg" alt="電撃移動中のエクレア"></a>
-			<a href="images/gallery/5.jpg" rel="shadowbox[gallery]"><img src="images/gallery/5.thumb.jpg" alt="クラゲ足場"></a>
-			<a href="images/gallery/6.jpg" rel="shadowbox[gallery]"><img src="images/gallery/6.thumb.jpg" alt="ボルトを投げるエクレア"></a>
-			<a href="images/gallery/7.jpg" rel="shadowbox[gallery]"><img src="images/gallery/7.thumb.jpg" alt="溶鉱炉"></a>
-			<a href="images/gallery/8.jpg" rel="shadowbox[gallery]"><img src="images/gallery/8.thumb.jpg" alt="水と避雷針"></a>
+			<a href="images/gallery/1.jpg" rel="shadowbox[gallery]"><img data-src="images/gallery/1.thumb.jpg" alt="1章コンセプトアート"></a>
+			<a href="images/gallery/2.jpg" rel="shadowbox[gallery]"><img data-src="images/gallery/2.thumb.jpg" alt="ボルト"></a>
+			<a href="images/gallery/3.jpg" rel="shadowbox[gallery]"><img data-src="images/gallery/3.thumb.jpg" alt="避雷針"></a>
+			<a href="images/gallery/4.jpg" rel="shadowbox[gallery]"><img data-src="images/gallery/4.thumb.jpg" alt="電撃移動中のエクレア"></a>
+			<a href="images/gallery/5.jpg" rel="shadowbox[gallery]"><img data-src="images/gallery/5.thumb.jpg" alt="クラゲ足場"></a>
+			<a href="images/gallery/6.jpg" rel="shadowbox[gallery]"><img data-src="images/gallery/6.thumb.jpg" alt="ボルトを投げるエクレア"></a>
+			<a href="images/gallery/7.jpg" rel="shadowbox[gallery]"><img data-src="images/gallery/7.thumb.jpg" alt="溶鉱炉"></a>
+			<a href="images/gallery/8.jpg" rel="shadowbox[gallery]"><img data-src="images/gallery/8.thumb.jpg" alt="水と避雷針"></a>
 		</div>
 	</div>
 	<div id="roadmap" class="roadmap">
@@ -185,7 +186,6 @@
 			</ul>
 		</div>
 	</div>
-	</div><!-- navigation-wrapper -->
 <!-- 	<div id="member" class="member">
 		<h2>制作メンバー</h2>
 		<div class="member-inner">
@@ -213,6 +213,7 @@
 		<img src="images/header/logo.png" width="400" alt="">
 		<p>&copy;Team HTL in Qpic</p>
 	</footer>
+	</div><!-- navigation-wrapper -->
 
     <!-- Scripts -->
     <script src="js/script.js"></script>
@@ -225,7 +226,7 @@
     <script>
     	const sweetScroll = new SweetScroll({
   			trigger: "a[href^='#']",
-  			offset: -80,
+  			offset: isPhone() ? -280 : -80,
   			duration: 500
 		});
     </script>

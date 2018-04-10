@@ -33,6 +33,8 @@ var onScroll = function() {
 }
 document.addEventListener('scroll', onScroll)
 
+Vue.use(VueLazyload);
+
 var navigation = new Vue({
   el: '#nav',
   data: {
@@ -57,6 +59,14 @@ var about = new Vue({
       return isPhone();
     }
   }
+});
+
+var characters = new Vue({
+  el: '#characters'
+});
+
+var gallery = new Vue({
+  el: '#gallery'
 });
 
 // おわり
