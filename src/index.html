@@ -58,8 +58,8 @@
 		</div>
 	</nav>
 	<div class="horizon"></div>
-	<div class="movie">
-		<a href="https://www.youtube.com/embed/autYRqHTAlI?autoplay=1" rel="shadowbox;width=960;height=540" onclick="pauseMovie()">
+	<div id="movie" class="movie">
+		<a href="https://youtu.be/autYRqHTAlI" :href="isPhone ? 'https://www.youtube.com/watch?v=autYRqHTAlI' : 'https://www.youtube.com/embed/autYRqHTAlI?autoplay=1'" :rel="isPhone ? '' : 'shadowbox;width=960;height=540'" onclick="pauseMovie()">
 			<img src="images/movie/play.svg" width=64 height=64 alt="動画を再生" class="movie-play">
 		</a>
 		<div id="movie-player"></div>

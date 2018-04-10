@@ -41,11 +41,19 @@ var navigation = new Vue({
   }
 });
 
+var movie = new Vue({
+  el: '#movie',
+  computed: {
+    isPhone: function () {
+      return isPhone();
+    }
+  }
+});
+
 var about = new Vue({
   el: '#about',
   computed: {
     isPhone: function () {
-      console.log("hoge");
       return isPhone();
     }
   }
