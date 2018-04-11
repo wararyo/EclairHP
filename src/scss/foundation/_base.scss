@@ -14,3 +14,18 @@ body {
 	background-size: 48px 48px, cover;
 	background-position: center center;
 }
+
+img[lazy="loading"] {
+	max-width: 240px;
+	box-shadow: none !important;
+	animation: loading-icon 1s ease 0s infinite normal none running;
+}
+
+@keyframes loading-icon {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

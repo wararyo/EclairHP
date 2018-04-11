@@ -18,13 +18,15 @@ var isMobile = function () {
   return isPhone();
 };
 
+// 見出しを見てる判定を行う画面上のY位置
+var viewThreshold = isPhone() ? 0.1 : 0.5;
 // 見てる見出しによってナビゲーションの見た目を変えるやつ
 var onScroll = function() {
   var headings = document.getElementsByTagName('h2');
   for (var i = headings.length - 1; i >= 0; i--) {
   	var posY = headings[i].getBoundingClientRect().top;
   	var windowHeight = document.documentElement.clientHeight;
-  	if(posY < windowHeight * 0.5) {
+  	if(posY < windowHeight * viewThreshold) {
   		navigation.currentSection = i;
   		return;
   	}
@@ -33,7 +35,18 @@ var onScroll = function() {
 }
 document.addEventListener('scroll', onScroll)
 
-Vue.use(VueLazyload);
+Vue.use(VueLazyload, {
+  loading: 'images/common/loading.svg',
+  preLoad: 1.6
+});
+
+var sectionNames = [
+  'INDEX',
+  '電撃少女エクレアとは',
+  'キャラクター',
+  'ギャラリー',
+  'ロードマップ',
+];
 
 var navigation = new Vue({
   el: '#nav',

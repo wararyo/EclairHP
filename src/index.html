@@ -49,7 +49,7 @@
 	<nav id="nav" class="navigation" v-bind:class="{'shown-in-mobile': shownInMobile}">
 		<div class="container-wide">
 			<ul>
-				<li class="toolbar-mobile"><a v-on:click="shownInMobile = !shownInMobile">INDEX</a></li>
+				<li v-if="isPhone" class="toolbar-mobile"><a v-on:click="shownInMobile = !shownInMobile">{{sectionNames[currentSection+1]}}</a></li>
 				<li class="nav-top" v-on:click="shownInMobile = false"><a href="#"><img src="images/navgation/silhouette.svg" alt="トップへ"></a></li>
 				<li class="nav-about" v-bind:class="{active: currentSection == 0}" v-on:click="shownInMobile = false"><a href="#about"><span>電撃少女</span><span>エクレアとは</span></a></li>
 				<li class="nav-character" :class="{active: currentSection == 1}" v-on:click="shownInMobile = false"><a href="#characters">キャラクター</a></li>
