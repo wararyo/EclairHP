@@ -143,7 +143,7 @@
 .header-share {
 	position: absolute;
 	bottom: 36px;
-	right: 240 + 16 + 48px;
+	right: 240 + 16 + 128px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -160,6 +160,9 @@
 	}
 	.header-info {
 		right: 48px;
+	}
+	.header-share {
+		right: 240 + 16 + 48px;
 	}
 }
 
@@ -198,6 +201,14 @@
 	.header-banner img {
 		margin: 0;
 	}
+	.header-share {
+		position: static;
+		flex-direction: row;
+		justify-content: center;
+		iframe {
+			margin: 0 16px;
+		}
+	}
 }
 
 @include mq(sp){
@@ -232,5 +243,13 @@
 		position: static;
 		width: calc(100% - 32px);
 		margin: 48px auto 16px;
+	}
+	.header-share {
+		position: static;
+		flex-direction: row;
+		justify-content: center;
+		iframe {
+			margin: 0 16px;
+		}
 	}
 }

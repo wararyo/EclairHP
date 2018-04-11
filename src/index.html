@@ -39,11 +39,11 @@
 				<a v-if="isPhone" href="https://twitter.com/Eclair_HTL" class="header-banner"> 
 					<img src="images/header/Twitter.svg">
 				</a>
-				<div class="header-banner">
+				<div v-if="!isPhone" class="header-banner">
 					<div class="header-twitter-header">
 						<img src="images/header/twitterIcon.svg" width=36 alt="">
-						<a class="twitter-name" href="#">@Eclair_HTL</a>
-						<a class="twitter-follow" href="https://twitter.com/Eclair_HTL">フォロー</a>
+						<a class="twitter-name" href="https://twitter.com/Eclair_HTL" target="_blank">@Eclair_HTL</a>
+						<a class="twitter-follow" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%3A3000%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=Eclair_HTL&tw_p=followbutton">フォロー</a>
 					</div>
 					<a class="twitter-timeline" data-lang="ja" data-width="240" data-height="200" data-chrome="noheader nofooter" href="https://twitter.com/Eclair_HTL?ref_src=twsrc%5Etfw">Tweets by Eclair_HTL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div>
