@@ -63,7 +63,7 @@
 
 .header-detail {
 	position: absolute;
-	bottom: 37px;
+	bottom: 36px;
 	left: 128px;
 	text-shadow: 0 0 12px rgba($black, .6);
 	color: white;
@@ -89,22 +89,61 @@
 }
 
 .header-banner {
-	img {
+	display: block;
+	margin-bottom: 16px;
+
+	> img {
 		width: 240px;
 		height: 80px;
 		box-shadow: 0 2px 4px rgba(0,0,0,.2);
 		border-radius: 2px;
-		margin-bottom: 16px;
 		transition: .1s;
 	}
-	&:last-child img {
+	&:last-child {
 		margin-bottom: 0;
 	}
-	&:hover img {
+	&:hover > img {
 		opacity: .8;
 		transform: translateY(-1px);
 		box-shadow: 0 3px 6px rgba($black, .2);
 	}
+}
+
+.header-twitter-header {
+
+	color: white;
+	display: flex;
+	align-items: center;
+	font-size: 0.8em;
+
+	span {
+		flex: 1;
+	}
+
+	a {
+		color: white;
+		display: inline-block;
+		padding: 6px 12px;
+		text-decoration: none;
+		border: 1px solid $white;
+		border-radius: 16px;
+		transition: 0.1s;
+		&:hover {
+			background-color: $white;
+			color: $eclair-orange;
+		}
+	}
+}
+
+.header-share {
+	position: absolute;
+	bottom: 36px;
+	right: 240 + 16 + 48px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	height: 48px;
+	justify-content: space-between;
 }
 
 @include mq(pc-narrow){

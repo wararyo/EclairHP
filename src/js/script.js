@@ -48,6 +48,15 @@ var sectionNames = [
   'ロードマップ',
 ];
 
+var header = new Vue({
+  el: 'header',
+  computed: {
+    isPhone: function () {
+      return isPhone();
+    }
+  }
+});
+
 var navigation = new Vue({
   el: '#nav',
   data: {
