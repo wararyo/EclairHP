@@ -116,11 +116,16 @@
 	align-items: center;
 	font-size: 0.8em;
 
-	span {
+	.twitter-name {
 		flex: 1;
+		color: white;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
-	a {
+	.twitter-follow {
 		color: white;
 		display: inline-block;
 		padding: 6px 12px;
