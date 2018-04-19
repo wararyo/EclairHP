@@ -1,4 +1,5 @@
 $z:(
+	decoration,
 	image-back,
 	contents,
 	image-fore,
@@ -15,6 +16,30 @@ $z:(
 .about > .container {
 	z-index: index($z, contents);
 }
+.about-eclair {
+	z-index: index($z, image-back);
+}
+.about p, .about h3 {
+	z-index: index($z, contents);
+}
+.about-movie {
+	z-index: index($z, image-back);
+}
+
+.character p,.character h3 {
+	z-index: index($z, contents);
+}
+.characters-image {
+	z-index: index($z, image-back);
+}
+
+.banner {
+	z-index: index($z, image-fore);
+}
+
+.movie {
+	z-index: index($z, content);
+}
 
 .movie iframe {
 	z-index: index($z, image-back);
@@ -27,13 +52,10 @@ $z:(
 .movie-play {
 	z-index: index($z, image-fore);
 }
+.decoration-wrapper {
+	z-index: index($z, decoration);
+}
 @include mq(tl){
-	.about-eclair{
-		z-index: index($z,image-back);
-	}
-	.about p {
-		z-index: index($z, contents);
-	}
 }
 @include mq(sp){
 	.section-header {

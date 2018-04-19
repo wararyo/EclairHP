@@ -1,4 +1,5 @@
 var ua = navigator.userAgent;
+console.log(ua);
 //携帯かどうか
 var isPhone = function () {
   // iPhone
@@ -6,7 +7,7 @@ var isPhone = function () {
   // Android
   if(ua.indexOf('Android') > -1) return true;
   // Other
-  if(ua.indexOf('Mobile') > -1) return true;
+  if(ua.indexOf('Mobile') > -1 && ua.indexOf('iPad') === -1) return true;
 
   return false;
 }
@@ -27,11 +28,11 @@ var onScroll = function() {
   	var posY = headings[i].getBoundingClientRect().top;
   	var windowHeight = document.documentElement.clientHeight;
   	if(posY < windowHeight * viewThreshold) {
-  		navigation.currentSection = i;
+  		vue.currentSection = i;
   		return;
   	}
   }
-  navigation.currentSection = -1;
+  vue.currentSection = -1;
 }
 document.addEventListener('scroll', onScroll)
 
@@ -51,55 +52,40 @@ var sectionNames = [
 var header = new Vue({
   el: 'header',
   computed: {
-    isPhone: function () {
-      return isPhone();
+    isMobile: function () {
+      return isMobile();
     }
   }
 });
 
-var navigation = new Vue({
-  el: '#nav',
+var vue = new Vue({
+  el: '#wrapper',
   data: {
     currentSection: 0,
     shownInMobile: false
-  }
-});
-
-var movie = new Vue({
-  el: '#movie',
+  },
   computed: {
     isPhone: function () {
       return isPhone();
+    },
+    isMobile: function () {
+      return isMobile();
+    },
+    currentSectionName: function() {
+      return sectionNames[this.currentSection+1];
     }
   }
-});
-
-var about = new Vue({
-  el: '#about',
-  computed: {
-    isPhone: function () {
-      return isPhone();
-    }
-  }
-});
-
-var characters = new Vue({
-  el: '#characters'
-});
-
-var gallery = new Vue({
-  el: '#gallery'
 });
 
 // おわり
 
 //モバイル時ハンバーガーアイコン
 var toggleNav = function() {
-  navigation.shownInMobile = !navigation.shownInMobile;
+  vue.shownInMobile = !vue.shownInMobile;
 };
 
 // Youtube
-if(!isMobile()) {//携帯だったらスクリプト読まないぜ
+if(!isPhone()) {//携帯だったらスクリプト読まないぜ
   var tag = document.createElement('script');
 
   tag.src = "https://www.youtube.com/iframe_api";
@@ -165,4 +151,3 @@ var pauseMovie = function () {
 }
 
 //End Youtube
-

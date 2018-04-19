@@ -1,0 +1,31 @@
+#minigames {
+	display: none;
+}
+
+.minigames {
+	background: url("images/common/stripe.png");
+	background-size: 177px 151px;
+	width: 100%;
+	height: 100%;
+	padding: 16px;
+	overflow: scroll;
+
+	h2 {
+		margin: 16px 0;
+		text-align: center;
+		font-size: 2em;
+		text-shadow: 0 2px 4px rgba($black, .2);
+	}
+
+	p {
+		margin: 16px 0;
+	}
+}
+
+.minigame {
+	width: calc(100% - 32px);
+	border-radius: 2px;
+	border: solid 1px #EEE;
+	background-color: white;
+	box-shadow: 0 2px 4px rgba($black, .2);
+}

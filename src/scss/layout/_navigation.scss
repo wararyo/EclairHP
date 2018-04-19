@@ -9,6 +9,7 @@
 	height: 80px;
 	background-color: $eclair-orange;
 	box-shadow: 0px 4px 8px rgba($black, .16);
+	overflow: hidden;
 
 	> .container-wide {
 		height: 100%;

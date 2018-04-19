@@ -12,6 +12,7 @@
 	}
 
 	p {
+		position: relative;
 		margin: 24px 0;
 		font-size: 1.4em;
 		line-height: 1.6em;
@@ -27,6 +28,7 @@
 	}
 
 	h3 {
+		position: relative;
 		font-size: 3em;
 		margin-top: 48px;
 		margin-left: -20px;
@@ -56,6 +58,7 @@
 
 .characters-image {
 	float: right;
+	position: relative;
 }
 
 @include mq(pc-narrow){
