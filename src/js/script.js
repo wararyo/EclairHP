@@ -138,7 +138,7 @@ function onPlayerReady(event) {
 var loopCount = 0;
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.ENDED) {
-    if(loopCount < 20) {//放置されても通信量ヤバくならない
+    if(loopCount < 10) {//放置されても通信量ヤバくならない
       event.target.seekTo(0,true);
       event.target.playVideo();
       loopCount++;
