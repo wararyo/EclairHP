@@ -56,17 +56,6 @@
 		});
 		//End Decoration
     </script>
-    <!-- ShadowBox -->
-    <link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css">
-    <script type="text/javascript" src="shadowbox/shadowbox.js"></script>
-    <script type="text/javascript">
-    	Shadowbox.init();
-    </script>
-
-    <!-- CreateJS -->
-	<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-	<!-- ParticleJS -->
-	<script src="https://cdn.rawgit.com/ics-creative/ParticleJS/release/1.0.0/libs/particlejs.min.js"></script>
 
   </head>
   <body>
@@ -128,7 +117,7 @@
 		<a href="#minigames" rel="shadowbox:width=960;height=640"><img src="images/banner/minigame-banner.png" width=560 height=72 alt="ミニゲーム配信中！"></a>
 	</div>
 	<div id="movie" class="movie">
-		<a href="https://youtu.be/autYRqHTAlI" :href="isPhone ? 'https://www.youtube.com/watch?v=autYRqHTAlI' : 'https://www.youtube.com/embed/autYRqHTAlI?autoplay=1'" :rel="isPhone ? '' : 'shadowbox;width=960;height=540'" onclick="pauseMovie()">
+		<a href="https://youtu.be/autYRqHTAlI" :href="isPhone ? 'https://www.youtube.com/watch?v=autYRqHTAlI' : 'https://www.youtube.com/embed/autYRqHTAlI?autoplay=1&amp;rel=0'" :rel="isPhone ? '' : 'shadowbox;width=960;height=540'" onclick="pauseMovie()">
 			<img src="images/movie/play.svg" width=64 height=64 alt="動画を再生" class="movie-play">
 		</a>
 		<div id="movie-player"></div>
@@ -314,8 +303,6 @@
 		</div>
 	</div>
 
-    <!-- Scripts -->
-    <script src="js/script.js"></script>
     <!-- BrowserSync -->
     <!-- <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
@@ -329,6 +316,21 @@
   			duration: 500
 		});
     </script>
+
+    <!-- ShadowBox -->
+    <link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css">
+    <script type="text/javascript" src="shadowbox/shadowbox.js"></script>
+    <script type="text/javascript">
+    	Shadowbox.init();
+    </script>
+
+    <!-- CreateJS -->
+	<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+	<!-- ParticleJS -->
+	<script src="https://cdn.rawgit.com/ics-creative/ParticleJS/release/1.0.0/libs/particlejs.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
 
     <!-- SVG Effect -->
     <svg height="0">

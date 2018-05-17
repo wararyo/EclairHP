@@ -1,5 +1,4 @@
 var ua = navigator.userAgent;
-console.log(ua);
 //携帯かどうか
 var isPhone = function () {
   // iPhone
@@ -138,7 +137,7 @@ function onPlayerReady(event) {
 var loopCount = 0;
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.ENDED) {
-    if(loopCount < 10) {//放置されても通信量ヤバくならない
+    if(loopCount < 12) {//放置されても通信量ヤバくならない
       event.target.seekTo(0,true);
       event.target.playVideo();
       loopCount++;
@@ -152,8 +151,7 @@ var pauseMovie = function () {
 
 //End Youtube
 
-console.log("hoge");
-
+if(!isMobile()) {
 
 // Stageオブジェクトを作成します。表示リストのルートになります。
 stage = new createjs.Stage("headerCanvas");
@@ -226,3 +224,4 @@ createjs.Ticker.framerate = 60;
 // 定期的に呼ばれる関数を登録
 createjs.Ticker.on("tick", handleTick);
 
+}//isMobile
