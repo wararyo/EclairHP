@@ -1,0 +1,20 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480" height="480" viewBox="0 0 480 480">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#名称未設定グラデーション_9);
+      }
+    </style>
+    <radialGradient id="名称未設定グラデーション_9" data-name="名称未設定グラデーション 9" cx="240" cy="240" r="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="0.034" stop-color="#fff" stop-opacity="0.371"/>
+      <stop offset="0.218" stop-color="#fff" stop-opacity="0.238"/>
+      <stop offset="0.405" stop-color="#fff" stop-opacity="0.134"/>
+      <stop offset="0.596" stop-color="#fff" stop-opacity="0.059"/>
+      <stop offset="0.792" stop-color="#fff" stop-opacity="0.015"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <title>flare</title>
+  <circle class="cls-1" cx="240" cy="240" r="240"/>
+</svg>

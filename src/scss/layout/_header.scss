@@ -3,6 +3,7 @@
 //枠
 
 .header {
+	position: relative;
 	width: 100%;
 	height: 640px;
 	overflow: hidden;
@@ -55,7 +56,7 @@
 
 .header-logo {
 	position: absolute;
-	top: 144px;
+	top: 156px;
 	left: 110px;
 	img {
 		height: 280px;
@@ -66,6 +67,9 @@
 	position: absolute;
 	right: 0;
 	transform: translateX(10%);
+	background: url("images/header/flare.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .header-detail {
@@ -178,6 +182,13 @@
   	-webkit-filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.8));
 }
 
+.header-canvas {
+	position: absolute;
+	height: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 @include mq(pc-narrow){
 	.header-logo {
 		left: 30px;
@@ -234,6 +245,9 @@
 			margin: 4px 0;
 		}
 	}
+	.header-glitch {
+		display: none;
+	}
 	.header-info {
 		position: static;
 		width: calc(100% - 32px);
@@ -289,6 +303,9 @@
 			display: inline-block;
 			margin: 4px 0;
 		}
+	}
+	.header-glitch {
+		display: none;
 	}
 	.header-message {
 		font-size: 1.6em;

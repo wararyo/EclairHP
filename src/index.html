@@ -62,9 +62,16 @@
     <script type="text/javascript">
     	Shadowbox.init();
     </script>
+
+    <!-- CreateJS -->
+	<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+	<!-- ParticleJS -->
+	<script src="https://cdn.rawgit.com/ics-creative/ParticleJS/release/1.0.0/libs/particlejs.min.js"></script>
+
   </head>
   <body>
 	<header class="header">
+		<canvas v-if="!isMobile" width="1280" height="640" class="header-canvas" id="headerCanvas"></canvas>
 		<div class="header-container">
 			<div class="header-hero">
 				<img src="images/header/hero.png" height="640" alt="エクレア">
