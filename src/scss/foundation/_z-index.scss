@@ -9,6 +9,26 @@ $z:(
 	hamburger-sp
 );
 
+.header-logo {
+	z-index: index($z, contents);
+}
+
+.header-hero {
+	z-index: index($z, image-back);
+}
+
+.header-detail {
+	z-index: index($z, contents);
+}
+
+.header-share {
+	z-index: index($z, contents);
+}
+
+.header-info {
+	z-index: index($z, contents);
+}
+
 .navigation {
 	z-index: index($z, nav);
 }

@@ -6,6 +6,7 @@
     <title>電撃少女エクレア 公式サイト</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name=”robots” content=”noindex”>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- OGP -->
     <head prefix="og: http://ogp.me/ns# website: http://ogp.me/ns/website#">
 	<meta property="og:title" content="電撃少女エクレア　公式サイト" />
@@ -14,9 +15,9 @@
 	<meta property="og:image" content="http://qpic.jp/pages/eclair/images/common/ogp.jpg" />
 	<meta property="og:site_name" content="Qpic" />
 	<meta property="og:description" content="Qpic開発の3Dアクションゲーム「電撃少女エクレア」の公式サイトです。" />
-
 	<!-- TwitterCard -->
-	<meta name="twitter:card" content="summary large image" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:image" content="http://qpic.jp/pages/eclair/images/common/ogp.jpg" />
 
     <meta name="theme-color" content="#F28446">
     <!-- Vue.js -->
@@ -65,6 +66,9 @@
   <body>
 	<header class="header">
 		<div class="header-container">
+			<div class="header-hero">
+				<img src="images/header/hero.png" height="640" alt="エクレア">
+			</div>
 			<a class="header-qpic" href="http://qpic.jp/"><img src="images/header/qpic.svg" alt="Qpic"></a>
 			<h1 class="header-logo"><img src="images/header/logo.png" alt="電撃少女エクレア"></h1>
 			<div class="header-detail">
@@ -75,7 +79,10 @@
 				</ul>
 				<div class="header-message">
 				<span>2018年中の</span><span>一部公開に向けて開発中</span>
+				</div>
 			</div>
+			<div class="header-glitch">
+				
 			</div>
 			<div class="header-share">
 				<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-lang="ja" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -93,9 +100,6 @@
 					</div>
 					<a class="twitter-timeline" data-lang="ja" data-width="240" data-height="200" data-chrome="noheader nofooter" href="https://twitter.com/Eclair_HTL?ref_src=twsrc%5Etfw">Tweets by Eclair_HTL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div>
-				<a v-if="isMobile" href="http://www.qpic.jp/public/games/view/254" class="header-banner"> 
-					<img src="images/header/ragingInferno.png">
-				</a>
 			</div>
 		</div>
 	</header>
@@ -123,7 +127,7 @@
 		<div id="movie-player"></div>
 	</div>
 	<div id="about" class="about" v-lazy-container="{ selector: 'img' }">
-		<div class="section-header"><h2>電撃少女エクレアとは</h2></div>
+		<div class="section-header" v-bind:class="{hidden: shownInMobile}" ><h2>電撃少女エクレアとは</h2></div>
 		<div class="container">
 			<decoration-wrapper :side="0"></decoration-wrapper>
 			<p>
@@ -185,12 +189,12 @@
 		</div>
 	</div>
 	<div id="characters" class="characters" v-lazy-container="{ selector: 'img' }">
-		<div class="section-header cyan"><h2>キャラクター</h2></div>
+		<div class="section-header cyan" v-bind:class="{hidden: shownInMobile}"><h2>キャラクター</h2></div>
 		<div class="container">
 			<decoration-wrapper :side="0"></decoration-wrapper>
 			<div class="character">
 				<h3>エクレア</h3>
-				<img data-src="images/characters/eclair.png" height=480 alt="エクレア" class="characters-image">
+				<img data-src="images/characters/eclair.png" height=480 alt="エクレア" class="characters-image eclair">
 				<p>
 					「ELE-GEAR」を操る少女。<br>
 					<span>オレイエットの依頼を受け</span>

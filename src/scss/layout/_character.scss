@@ -59,6 +59,10 @@
 .characters-image {
 	float: right;
 	position: relative;
+
+	&.eclair {
+		transform: translateX(-36%);
+	}
 }
 
 @include mq(pc-narrow){
@@ -72,6 +76,11 @@
 	.characters {
 		h3 {
 			margin-left: 0;
+		}
+	}
+	.characters-image {
+		&.eclair {
+			transform: translateX(0);
 		}
 	}
 }
@@ -91,5 +100,8 @@
 		display: block;
 		margin: 24px auto;
 		height: 320px;
+		&.eclair {
+			transform: translateX(0);
+		}
 	}
 }

@@ -8,6 +8,7 @@
 	background-size: 48px 48px;
 	box-shadow: 0 2px 4px rgba($black, .2);
 	animation: background-move 4s linear 0s infinite normal none running;
+	transition: opacity 0.1s;
 
 	h2 {
 		width: 1024px;
@@ -33,6 +34,10 @@
 	}
 	&.yellow:before {
 		background-color: $eclair-yellow-dark;
+	}
+
+	&.hidden {
+		opacity: 0;
 	}
 }
 

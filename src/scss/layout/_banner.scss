@@ -1,11 +1,9 @@
 .banner {
-	position: relative;
-	width: 100%;
-	margin-bottom: -42px;
-	background: url("images/banner/background.svg");
-	background-size: 102%;
-	background-position: bottom center;
-	background-repeat: no-repeat;
+	display: none;
+	position: fixed;
+	bottom: 24px;
+	right: 24px;
+	background-color: $eclair-orange;
 
 	a {
 		display: block;
@@ -23,13 +21,18 @@
 	}
 }
 @include mq(tl){
-	.banner img {
-		margin: 8px auto;
+	.banner {
+		position: relative;
+		width: 100%;
+		img {
+			margin: 8px auto;
+		}
 	}
 }
 @include mq(sp){
 	.banner {
-		margin-bottom: -48px;
+		position: relative;
+		width: 100%;
 		a {
 			padding: 8px 0 16px;
 		}
