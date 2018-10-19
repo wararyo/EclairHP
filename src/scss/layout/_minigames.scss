@@ -7,6 +7,7 @@
 	background-size: 177px 151px;
 	width: 100%;
 	height: 100%;
+	overflow: scroll;
 }
 
 .minigames {
@@ -16,6 +17,10 @@
 		text-align: center;
 		font-size: 2em;
 		text-shadow: 0 2px 4px rgba($black, .2);
+	}
+
+	h4 {
+		padding: 0 16px;
 	}
 
 	p {
@@ -43,11 +48,13 @@
 .minigame-inner {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	margin: 8px 0;
 
 	.description {
 		flex: 1;
 		align-self: flex-start;
+		min-width: 240px;
 	}
 }
 
@@ -60,5 +67,19 @@
 
 	&:hover {
 		color: $eclair-orange;
+	}
+}
+
+.mobile {
+	display: none;
+}
+
+@include mq(sp){
+	.minigame-inner {
+		flex-direction: column;
+	}
+
+	.mobile {
+		display: block;
 	}
 }

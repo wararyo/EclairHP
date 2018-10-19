@@ -169,7 +169,7 @@ particleSystem.importFromJson(
     "bgColor": "#00000",
     "width": 1280,
     "height": 640,
-    "emitFrequency": 20,
+    "emitFrequency": 10,
     "startX": 900,
     "startXVariance": 55,
     "startY": 500,
@@ -181,18 +181,17 @@ particleSystem.importFromJson(
     "friction": "0.0035",
     "accelerationSpeed": 0.005,
     "accelerationDirection": 192,
-    "startScale": 0.2,
+    "startScale": 0.16,
     "startScaleVariance": 0.2,
     "finishScale": "0",
     "finishScaleVariance": "0",
-    "lifeSpan": "700",
+    "lifeSpan": "900",
     "lifeSpanVariance": "500",
     "startAlpha": "0.51",
     "startAlphaVariance": "1",
     "finishAlpha": "0",
     "finishAlphaVariance": "0",
     "shapeIdList": [
-        "blur_circle",
         "circle"
     ],
     "startColor": {
@@ -216,7 +215,6 @@ function handleTick() {
  
   // 描画を更新する
   stage.update();
-  console.log("hoge");
 }
 
 // フレームレートの設定

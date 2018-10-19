@@ -32,6 +32,9 @@ $z:(
 .navigation {
 	z-index: index($z, nav);
 }
+.banner {
+	z-index: index($z, nav);
+}
 
 .about > .container {
 	z-index: index($z, contents);

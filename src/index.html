@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>電撃少女エクレア 公式サイト</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name=”robots” content=”noindex”>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- OGP -->
     <head prefix="og: http://ogp.me/ns# website: http://ogp.me/ns/website#">
@@ -21,7 +20,7 @@
 
     <meta name="theme-color" content="#F28446">
     <!-- Vue.js -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
     <script src="https://unpkg.com/vue-lazyload/vue-lazyload.js"></script>
     <script id="decoration" type="text/x-template">
     	<img :data-src="'images/decoration/' + index + '.svg'" :style="'position: relative; top: '+dy+'px;left:'+dx+'px;'" class="decoration-item" :class="'random-'+rotationPattern">
@@ -57,6 +56,14 @@
 		//End Decoration
     </script>
 
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NCRJLFG');</script>
+	<!-- End Google Tag Manager -->
+
   </head>
   <body>
 	<header class="header">
@@ -74,7 +81,7 @@
 					<li>プレイ人数: 1人</li>
 				</ul>
 				<div class="header-message">
-				<span>2018年中の</span><span>一部公開に向けて開発中</span>
+				<span>「第一章」</span><span>公開中！</span>
 				</div>
 			</div>
 			<div class="header-glitch">
@@ -109,12 +116,14 @@
 				<li class="nav-about" v-bind:class="{active: currentSection == 0}" v-on:click="shownInMobile = false"><a href="#about"><span>電撃少女</span><span>エクレアとは</span></a></li>
 				<li class="nav-character" :class="{active: currentSection == 1}" v-on:click="shownInMobile = false"><a href="#characters">キャラクター</a></li>
 				<li class="nav-gallery" :class="{active: currentSection == 2}" v-on:click="shownInMobile = false"><a href="#gallery">ギャラリー</a></li>
-				<li class="nav-roadmap" :class="{active: currentSection == 3}" v-on:click="shownInMobile = false"><a href="#roadmap"><span>ロード</span><span>マップ</span></a></li>
+				<li class="nav-roadmap" :class="{active: currentSection == 3}" v-on:click="shownInMobile = false"><a href="#roadmap"><span>ダウン</span><span>ロード</span></a></li>
 			</ul>
 		</div>
 	</nav>
 	<div class="banner">
-		<a href="#minigames" rel="shadowbox:width=960;height=640"><img src="images/banner/minigame-banner.png" width=560 height=72 alt="ミニゲーム配信中！"></a>
+		<a href="#minigames" rel="shadowbox;width=960;height=720">
+			<img src="images/banner/minigame-banner.png" width=560 height=72 alt="ミニゲーム配信中！">
+			</a>
 	</div>
 	<div id="movie" class="movie">
 		<a href="https://youtu.be/autYRqHTAlI" :href="isPhone ? 'https://www.youtube.com/watch?v=autYRqHTAlI' : 'https://www.youtube.com/embed/autYRqHTAlI?autoplay=1&amp;rel=0'" :rel="isPhone ? '' : 'shadowbox;width=960;height=540'" onclick="pauseMovie()">
@@ -288,7 +297,22 @@
 			<p>
 				本編は現在開発中ですが、開発途中で生まれたミニゲームを配信しています。
 			</p>
+			<div class="mobile">
+				<h4>これらのミニゲームはWindows/Macのみ対応しています</h4>
+				<p>
+					再度PCからアクセスしていただくことをお勧めします。
+				</p>
+			</div>
 			<div class="minigames-inner">
+				<div class="minigame">
+					<h4>電撃少女エクレア デンチとくらやみの廃坑</h4>
+					<div class="minigame-inner">
+					<img src="images/minigames/haikou.png" width="280" alt="電撃少女エクレア 業火の脱走路" class="minigame-logo">
+					<p class="description">地下の廃坑を探索しながらデンチをあつめよう！電撃移動の動きの改良や軽量化などが行われています。</p>
+					<img src="images/minigames/haikou-screenshot.jpg" alt="スクリーンショット" class="minigame-screenshot">
+					</div>
+					<a href="http://qpic.jp/new/works/games/257" class="minigame-download button">Qpicの詳細ページへ</a>
+				</div>
 				<div class="minigame">
 					<h4>電撃少女エクレア 業火の脱走路 &lt;レイジング・インフェルノ&gt;</h4>
 					<div class="minigame-inner">
@@ -307,15 +331,6 @@
     <!-- <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
 //]]></script> -->
-    <!-- SweetScroll -->
-    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
-    <script>
-    	const sweetScroll = new SweetScroll({
-  			trigger: "a[href^='#']",
-  			offset: isPhone() ? -280 : -80,
-  			duration: 500
-		});
-    </script>
 
     <!-- ShadowBox -->
     <link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css">
@@ -331,6 +346,16 @@
 
     <!-- Scripts -->
     <script src="js/script.js"></script>
+
+    <!-- SweetScroll -->
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+    <script>
+    	const sweetScroll = new SweetScroll({
+  			trigger: "a[href^='#']",
+  			offset: isPhone() ? -280 : -80,
+  			duration: 500
+		});
+    </script>
 
     <!-- SVG Effect -->
     <svg height="0">
