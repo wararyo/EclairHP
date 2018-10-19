@@ -116,15 +116,10 @@
 				<li class="nav-about" v-bind:class="{active: currentSection == 0}" v-on:click="shownInMobile = false"><a href="#about"><span>電撃少女</span><span>エクレアとは</span></a></li>
 				<li class="nav-character" :class="{active: currentSection == 1}" v-on:click="shownInMobile = false"><a href="#characters">キャラクター</a></li>
 				<li class="nav-gallery" :class="{active: currentSection == 2}" v-on:click="shownInMobile = false"><a href="#gallery">ギャラリー</a></li>
-				<li class="nav-roadmap" :class="{active: currentSection == 3}" v-on:click="shownInMobile = false"><a href="#roadmap"><span>ダウン</span><span>ロード</span></a></li>
+				<li class="nav-download" :class="{active: currentSection == 3}" v-on:click="shownInMobile = false"><a href="#download"><span>ダウン</span><span>ロード</span></a></li>
 			</ul>
 		</div>
 	</nav>
-	<div class="banner">
-		<a href="#minigames" rel="shadowbox;width=960;height=720">
-			<img src="images/banner/minigame-banner.png" width=560 height=72 alt="ミニゲーム配信中！">
-			</a>
-	</div>
 	<div id="movie" class="movie">
 		<a href="https://youtu.be/autYRqHTAlI" :href="isPhone ? 'https://www.youtube.com/watch?v=autYRqHTAlI' : 'https://www.youtube.com/embed/autYRqHTAlI?autoplay=1&amp;rel=0'" :rel="isPhone ? '' : 'shadowbox;width=960;height=540'" onclick="pauseMovie()">
 			<img src="images/movie/play.svg" width=64 height=64 alt="動画を再生" class="movie-play">
@@ -245,15 +240,21 @@
 			<a href="images/gallery/8.jpg" rel="shadowbox[gallery]"><img data-src="images/gallery/8.thumb.jpg" alt="水と避雷針"></a>
 		</div>
 	</div>
-	<div id="roadmap" class="roadmap">
-		<div class="roadmap-inner frame">
-			<h2>ロードマップ</h2>
-			<ul>
-				<li><span>2018年夏</span>
-					<span>第1章公開</span></li>
-				<li><span>2019年中に</span>
-					<span>第4章まで公開</span></li>
-			</ul>
+	<div id="download" class="download">
+		<div class="download-inner frame">
+			<h2>ダウンロード</h2>
+			<div class="download-pane is-main">
+				<h3>本編</h3>
+				<a href="#" class="download-button"><span>電撃少女エクレア v1.0</span>300MB</a>
+				<h4>含まれているコンテンツ</h4>
+				<ul>
+					<li>第一章</li>
+				</ul>
+				<p>全4章構成を予定、鋭意開発中</p>
+			</div>
+			<div class="download-pane is-sub">
+				<h3>ミニゲーム</h3>
+			</div>
 		</div>
 	</div>
 <!-- 	<div id="member" class="member">
@@ -295,7 +296,7 @@
 			<div class="minigames">
 			<h3>ミニゲーム</h3>
 			<p>
-				本編は現在開発中ですが、開発途中で生まれたミニゲームを配信しています。
+				開発途中で生まれたミニゲームを配信しています。
 			</p>
 			<div class="mobile">
 				<h4>これらのミニゲームはWindows/Macのみ対応しています</h4>

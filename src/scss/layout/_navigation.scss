@@ -79,19 +79,19 @@
 }
 
 .nav-about {
-	flex: 3;
+	flex: 5;
 }
 
 .nav-character {
-	flex: 3;
+	flex: 4;
 }
 
 .nav-gallery {
-	flex: 2;
+	flex: 3;
 }
 
-.nav-roadmap {
-	flex: 2;
+.nav-download {
+	flex: 5;
 }
 
 .toolbar-mobile {
@@ -105,7 +105,7 @@
 	.nav-about,
 	.nav-character,
 	.nav-gallery,
-	.nav-roadmap {
+	.nav-download {
 		flex: 1;
 	}
 
@@ -116,6 +116,12 @@
 @include mq(tl){
 	.navigation ul li {
 		font-size: 1.6em;
+	}
+	.nav-about,
+	.nav-character,
+	.nav-gallery,
+	.nav-download {
+		flex: 1;
 	}
 }
 @include mq(sp){
