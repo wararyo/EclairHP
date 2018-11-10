@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"url",
+				"url()"
+			],
+			[
+				"downlo",
+				"download-button"
+			],
+			[
+				"list-",
+				"list-c\tlist-style-type: circle;"
+			],
+			[
+				"down",
+				"download-pane\t(index.html)"
+			],
+			[
+				"download",
+				"download-inner\t(index.html)"
+			],
+			[
+				"download-",
+				"download-pane-sub\t(index.html)"
+			],
+			[
 				"back",
 				"background-size\t(_base.scss)"
 			],
@@ -490,14 +514,6 @@
 			[
 				"canva",
 				"canvasWidth"
-			],
-			[
-				"box-",
-				"box-shadow"
-			],
-			[
-				"box",
-				"box-shadow"
 			]
 		]
 	},
@@ -515,29 +531,9 @@
 			"file": "src/index.html",
 			"settings":
 			{
-				"buffer_size": 15516,
+				"buffer_size": 15695,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dist/.htaccess",
-			"settings":
-			{
-				"buffer_size": 1854,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "watanabe-ryota-no-MacBo\nok-Pro:EclairHP wararyo\n$                      \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n                       \n",
-			"settings":
-			{
-				"buffer_size": 768,
-				"line_ending": "Unix",
-				"name": "Terminal (bash)",
-				"read_only": true,
-				"scratch": true
 			}
 		},
 		{
@@ -545,6 +541,51 @@
 			"settings":
 			{
 				"buffer_size": 4649,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "[18:26:03] Finished 'reload' after 1.21 ms   \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 355 μs    \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 323 μs    \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 1.39 ms   \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 338 μs    \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 360 μs    \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 285 μs    \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 296 μs    \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 335 μs    \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 22 ms     \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 457 μs    \n[18:26:03] Starting 'reload'...              \n[Browsersync] Reloading Browsers...          \n[18:26:03] Finished 'reload' after 307 μs    \n^C                                           \nwatanabe-ryota-no-MacBook-Pro:js wararyo$    \n",
+			"settings":
+			{
+				"buffer_size": 1656,
+				"line_ending": "Unix",
+				"name": "Terminal (bash)",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/scss/foundation/_base.scss",
+			"settings":
+			{
+				"buffer_size": 1513,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/variable/_breakpoint.scss",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/layout/_header.scss",
+			"settings":
+			{
+				"buffer_size": 5021,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -568,19 +609,27 @@
 			}
 		},
 		{
-			"file": "src/scss/layout/_header.scss",
+			"file": "src/scss/layout/_download.scss",
 			"settings":
 			{
-				"buffer_size": 4928,
+				"buffer_size": 1747,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/scss/layout/_roadmap.scss",
+			"file": "src/scss/object/_button.scss",
 			"settings":
 			{
-				"buffer_size": 395,
+				"buffer_size": 275,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/layout/_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 3074,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -634,9 +683,13 @@
 	"command_palette":
 	{
 		"height": 87.0,
-		"last_filter": "disable",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"bash",
+				"Terminal View: Open Bash Terminal"
+			],
 			[
 				"disable",
 				"Package Control: Disable Package"
@@ -644,10 +697,6 @@
 			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"bash",
-				"Terminal View: Open Bash Terminal"
 			],
 			[
 				"instal",
@@ -718,13 +767,20 @@
 	[
 		"/Users/wararyo/Git/EclairHP",
 		"/Users/wararyo/Git/EclairHP/dist",
-		"/Users/wararyo/Git/EclairHP/dist/js",
 		"/Users/wararyo/Git/EclairHP/src",
 		"/Users/wararyo/Git/EclairHP/src/images",
-		"/Users/wararyo/Git/EclairHP/src/images/minigames"
+		"/Users/wararyo/Git/EclairHP/src/images/download",
+		"/Users/wararyo/Git/EclairHP/src/scss",
+		"/Users/wararyo/Git/EclairHP/src/scss/variable"
 	],
 	"file_history":
 	[
+		"/Users/wararyo/Git/EclairHP/src/sftp-config.json",
+		"/Users/wararyo/Git/EclairHP/dist/style.css",
+		"/Users/wararyo/Git/EclairHP/dist/.htaccess",
+		"/Users/wararyo/Git/EclairHP/src/scss/object/_button.scss",
+		"/Users/wararyo/Git/EclairHP/src/scss/object/_frame.scss",
+		"/Users/wararyo/Git/EclairHP/src/scss/layout/_header.scss",
 		"/Users/wararyo/Git/EclairHP/src/scss/foundation/_z-index.scss",
 		"/Users/wararyo/Git/EclairHP/src/scss/layout/_movie.scss",
 		"/Users/wararyo/Git/EclairHP/src/scss/variable/_color.scss",
@@ -733,17 +789,14 @@
 		"/Users/wararyo/Git/EclairHP/src/scss/object/_section-header.scss",
 		"/Users/wararyo/Git/EclairHP/src/js/script.js",
 		"/Users/wararyo/Git/EclairHP/src/scss/foundation/_base.scss",
-		"/Users/wararyo/Git/EclairHP/src/scss/layout/_header.scss",
 		"/Users/wararyo/Git/EclairHP/node_modules/js-base64/base64.html",
 		"/Users/wararyo/Git/EclairHP/src/index.html",
 		"/Users/wararyo/Git/EclairHP/src/scss/layout/_banner.scss",
 		"/Users/wararyo/Git/EclairHP/src/scss/layout/_minigames.scss",
-		"/Users/wararyo/Git/EclairHP/src/scss/object/_button.scss",
 		"/Users/wararyo/Git/EclairHP/src/icons/manifest.json",
 		"/Users/wararyo/Git/EclairHP/src/icons/browserconfig.xml",
 		"/Users/wararyo/Git/EclairHP/src/scss/object/_decoration.scss",
 		"/Users/wararyo/Git/EclairHP/src/scss/layout/_footer.scss",
-		"/Users/wararyo/Git/EclairHP/dist/style.css",
 		"/Users/wararyo/Git/EclairHP/src/scss/layout/_about.scss",
 		"/Users/wararyo/Git/EclairHP/src/scss/foundation/_container.scss",
 		"/Users/wararyo/Git/EclairHP/dist/shadowbox/shadowbox.css",
@@ -754,7 +807,6 @@
 		"/Users/wararyo/Git/EclairHP/src/scss/layout/_gallery.scss",
 		"/Users/wararyo/Git/EclairHP/src/scss/foundation/_breakpoint.scss",
 		"/Users/wararyo/Git/EclairHP/src/scss/foundation/_dimension.scss",
-		"/Users/wararyo/Git/EclairHP/src/scss/object/_frame.scss",
 		"/Users/wararyo/Git/EclairHP/src/scss/style.scss",
 		"/Users/wararyo/Git/EclairHP/gulpfile.js",
 		"/Users/wararyo/Git/EclairHP/src/scss/foundation/_reset.scss",
@@ -850,13 +902,11 @@
 		"/Applications/MAMP/htdocs/stans_front/.gitignore",
 		"/Applications/MAMP/htdocs/STANS/assets/sass/sitewide/_button.scss",
 		"/Applications/MAMP/htdocs/STANS/assets/sass/structure/_footer.scss",
-		"/Applications/MAMP/htdocs/STANS/assets/sass/foundation/variable/_color.scss",
-		"/Applications/MAMP/htdocs/STANS/assets/sass/module/top/_recruit.scss",
-		"/Applications/MAMP/htdocs/STANS/assets/sass/module/top/_news.scss"
+		"/Applications/MAMP/htdocs/STANS/assets/sass/foundation/variable/_color.scss"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -871,6 +921,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data-",
+			"button",
+			"roadmap",
 			"hoge",
 			"url",
 			" ",
@@ -911,6 +964,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"download"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -945,13 +999,15 @@
 						{
 							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/XML/XML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -960,1052 +1016,42 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15516,
+						"buffer_size": 15695,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13338,
-								13338
+								10862,
+								10862
 							]
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
 							"is_init_dirty_state": false,
 							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 13845.0,
+						"translation.y": 10393.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "dist/.htaccess",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1854,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								919,
-								919
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 768,
-						"regions":
-						{
-							"0,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"0,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"0,33":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"1,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"1,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"10,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"10,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"10,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"11,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"12,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"12,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"12,3":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"13,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"13,34":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"13,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"14,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"14,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"15,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"15,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"16,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"16,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"17,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"18,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"18,26":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"18,33":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"19,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"19,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"2,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"20,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"20,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"20,3":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"21,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"21,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"22,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"22,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"23,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"23,33":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"24,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"24,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"25,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"25,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"25,26":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"26,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"26,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"26,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"27,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"28,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"28,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"28,3":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"29,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"29,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"29,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"3,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"3,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"30,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"31,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"31,31":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"31,33":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"32,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"33,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"33,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"34,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"34,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"4,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"4,3":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"4,33":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"4,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"5,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"6,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"6,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"7,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"7,31":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"7,35":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"8,0":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_magenta"
-							},
-							"8,21":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							},
-							"9,1":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_blue"
-							},
-							"9,14":
-							{
-								"flags": 272,
-								"regions":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"scope": "terminalview.black_cyan"
-							}
-						},
-						"selection":
-						[
-							[
-								50,
-								50
-							]
-						],
-						"settings":
-						{
-							"SL.18.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"auto_complete_commit_on_tab": false,
-							"caret_style": "blink",
-							"color_scheme": "Packages/User/TerminalView.hidden-tmTheme",
-							"default_dir": "/Users/wararyo/Git/EclairHP/src/scss/layout",
-							"draw_centered": false,
-							"draw_indent_guides": false,
-							"draw_white_space": "none",
-							"gutter": false,
-							"highlight_line": false,
-							"is_init_dirty_state": false,
-							"scroll_past_end": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"terminal_view": true,
-							"terminal_view_activate_args":
-							{
-								"cmd": "/bin/bash -l",
-								"cwd": "/Users/wararyo/Git/EclairHP",
-								"keep_open": false,
-								"syntax": null,
-								"title": "Terminal (bash)"
-							},
-							"terminal_view_last_cursor_pos":
-							[
-								2,
-								2
-							],
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "src/js/script.js",
 					"semi_transient": false,
 					"settings":
@@ -2017,48 +1063,20 @@
 						"selection":
 						[
 							[
-								2295,
-								2295
+								1096,
+								1096
 							]
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
 							"is_init_dirty_state": false,
 							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1462.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/scss/layout/_banner.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 590,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								144,
-								144
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -2068,28 +1086,1078 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "src/scss/layout/_minigames.scss",
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1077,
+						"buffer_size": 1656,
+						"regions":
+						{
+							"0,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										21,
+										27
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"0,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										35,
+										42
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"1,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"1,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"1,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										67,
+										73
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"10,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										481,
+										487
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"11,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										507,
+										518
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"11,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										520,
+										541
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"11,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"12,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										573,
+										579
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"12,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										587,
+										593
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"13,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"13,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										619,
+										625
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"14,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										645,
+										656
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"14,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										658,
+										679
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"14,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"15,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										711,
+										717
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"15,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										725,
+										731
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"16,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"16,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										757,
+										763
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"17,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										783,
+										794
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"17,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										796,
+										817
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"17,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"18,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										849,
+										855
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"18,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										863,
+										869
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"19,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"19,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"19,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										895,
+										901
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"2,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										93,
+										104
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"2,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										106,
+										127
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"2,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"20,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										921,
+										932
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"20,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										934,
+										955
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"20,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"21,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										987,
+										993
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"21,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1001,
+										1007
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"22,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"22,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"22,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1033,
+										1039
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"23,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1059,
+										1070
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"23,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1072,
+										1093
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"23,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"24,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1125,
+										1131
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"24,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1139,
+										1145
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"25,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1171,
+										1177
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"25,33":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"26,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1197,
+										1208
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"26,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1210,
+										1231
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"27,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1263,
+										1269
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"27,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1277,
+										1282
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"28,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1309,
+										1315
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"29,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1335,
+										1346
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"29,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1348,
+										1369
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"3,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										159,
+										165
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"3,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										173,
+										179
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"30,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1401,
+										1407
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"30,33":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"30,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1415,
+										1421
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"31,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1447,
+										1453
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"32,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1473,
+										1484
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"32,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1486,
+										1507
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"33,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1539,
+										1545
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"33,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1553,
+										1559
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"4,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"4,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										205,
+										211
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"5,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										231,
+										242
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"5,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										244,
+										265
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"5,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"6,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										297,
+										303
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"6,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										311,
+										317
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"7,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"7,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										343,
+										349
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"8,1":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										369,
+										380
+									]
+								],
+								"scope": "terminalview.black_blue"
+							},
+							"8,14":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										382,
+										403
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"8,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1656,
+										1656
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							},
+							"9,21":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										435,
+										441
+									]
+								],
+								"scope": "terminalview.black_cyan"
+							},
+							"9,35":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										449,
+										456
+									]
+								],
+								"scope": "terminalview.black_magenta"
+							}
+						},
+						"selection":
+						[
+							[
+								1652,
+								1652
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"caret_style": "blink",
+							"color_scheme": "Packages/User/TerminalView.hidden-tmTheme",
+							"default_dir": "/Users/wararyo/Git/EclairHP/src/js",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"remote_loading": false,
+							"scroll_past_end": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminal_view": true,
+							"terminal_view_activate_args":
+							{
+								"cmd": "/bin/bash -l",
+								"cwd": "/Users/wararyo/Git/EclairHP/src/js",
+								"keep_open": false,
+								"syntax": null,
+								"title": "Terminal (bash)"
+							},
+							"terminal_view_last_cursor_pos":
+							[
+								35,
+								42
+							],
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/scss/foundation/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								791,
-								791
+								703,
+								703
 							]
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
 							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/scss/variable/_breakpoint.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -2104,52 +2172,59 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4928,
+						"buffer_size": 5021,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								682,
-								682
+								616,
+								616
 							]
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
 							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1187.0,
+						"translation.y": 238.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "src/scss/layout/_roadmap.scss",
+					"file": "src/scss/layout/_banner.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 395,
+						"buffer_size": 590,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								284,
-								284
+								334,
+								240
 							]
 						],
 						"settings":
 						{
+							"class_or_id": "download-inner",
+							"incomplete_sync": null,
 							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -2157,7 +2232,148 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/scss/layout/_minigames.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								839
+							]
+						],
+						"settings":
+						{
+							"class_or_id": "download-inner",
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/scss/layout/_download.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1089,
+								1089
+							]
+						],
+						"settings":
+						{
+							"class_or_id": "download-inner",
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1337.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/scss/object/_button.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"class_or_id": "download-inner",
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/scss/layout/_navigation.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								852,
+								809
+							]
+						],
+						"settings":
+						{
+							"class_or_id": "download-inner",
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 149.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -2165,11 +2381,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
-		"height": 51.0
+		"height": 52.0
 	},
 	"layout":
 	{
@@ -2221,11 +2437,15 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 104.0
+	},
 	"pinned_build_system": "Packages/User/Gulp.sublime-build",
 	"project": "EclairHP.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2234,6 +2454,34 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"download.scss",
+				"src/scss/layout/_download.scss"
+			],
+			[
+				"script",
+				"src/js/script.js"
+			],
+			[
+				"hea",
+				"src/scss/layout/_header.scss"
+			],
+			[
+				"base.sc",
+				"src/scss/foundation/_base.scss"
+			],
+			[
+				"button",
+				"src/scss/object/_button.scss"
+			],
+			[
+				"frame",
+				"src/scss/object/_frame.scss"
+			],
+			[
+				"navi",
+				"src/scss/layout/_navigation.scss"
+			],
 			[
 				"scr",
 				"src/js/script.js"
@@ -2247,24 +2495,12 @@
 				"src/scss/layout/_roadmap.scss"
 			],
 			[
-				"hea",
-				"src/scss/layout/_header.scss"
-			],
-			[
 				"minigame",
 				"src/scss/layout/_minigames.scss"
 			],
 			[
-				"base.sc",
-				"src/scss/foundation/_base.scss"
-			],
-			[
 				"base",
 				"node_modules/js-base64/base64.html"
-			],
-			[
-				"script",
-				"src/js/script.js"
 			],
 			[
 				"movi",
@@ -2351,10 +2587,6 @@
 				"src/scss/layout/_about.scss"
 			],
 			[
-				"navi",
-				"src/app/navigation/navigation.component.scss"
-			],
-			[
 				"gradient",
 				"assets/sass/foundation/mixin/_gradient.scss"
 			],
@@ -2405,10 +2637,6 @@
 			[
 				"comm",
 				"assets/js/common.js"
-			],
-			[
-				"button",
-				"assets/sass/sitewide/_button.scss"
 			],
 			[
 				"recr",
@@ -2469,7 +2697,7 @@
 		[
 			[
 				"",
-				"~/Git/Qpic-Web/qpicweb.sublime-project"
+				"/Applications/MAMP/htdocs/isgs/isgs.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -2483,7 +2711,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

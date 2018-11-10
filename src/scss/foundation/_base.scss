@@ -29,3 +29,45 @@ img[lazy="loading"] {
 		transform: rotate(360deg);
 	}
 }
+
+@include mq(sp){
+	body {
+		background: none;
+	}
+	body::before {
+	  background:url("images/common/polkadot.png"), url('images/bg/3.jpg');
+	  background-repeat: repeat, no-repeat;
+	  background-position: center center;
+	  background-size: 48px 48px, cover;
+	  display: block;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  padding-bottom: 108px;
+	  content: "";
+	  z-index: -1;
+	} 
+}
+
+@include mq(tl){
+	body {
+		background: none;
+	}
+	body::before {
+	  background:url("images/common/polkadot.png"), url('images/bg/3.jpg');
+	  background-repeat: repeat, no-repeat;
+	  background-position: center center;
+	  background-size: 48px 48px, cover;
+	  display: block;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  padding-bottom: 108px;
+	  content: "";
+	  z-index: -1;
+	} 
+}
