@@ -86,13 +86,13 @@ gulp.task("js", function() {
         .pipe(gulp.dest("dist/js/"));
 });
 
-gulp.task("start",['server'], function() {
-    gulp.watch(jsfiles,["js"]);
-    gulp.watch(scssfiles,["sass"]);
-    gulp.watch(htmlfiles,["html"]);
-    gulp.watch(imagefiles,["image"]);
-    gulp.watch("dist/**",["reload"]);
-});
+gulp.task("start",gulp.series( gulp.parallel('server'), function() {
+    gulp.watch(jsfiles,gulp.task("js"));
+    gulp.watch(scssfiles,gulp.task("sass"));
+    gulp.watch(htmlfiles,gulp.task("html"));
+    gulp.watch(imagefiles,gulp.task("image"));
+    gulp.watch("dist/**",gulp.task("reload"));
+}));
 
 gulp.task('default', function() {
 	console.log(usage.join('\n'));
