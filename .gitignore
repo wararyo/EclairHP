@@ -16,3 +16,5 @@ yarn-error.log*
 src/sftp-config.json
 
 *.sublime-workspace
+
+*.sublime-workspace
