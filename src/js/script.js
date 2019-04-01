@@ -42,9 +42,7 @@ Vue.use(VueLazyload, {
 
 var sectionNames = [
   'INDEX',
-  '電撃少女エクレアとは',
-  'キャラクター',
-  'ギャラリー',
+  '俺のゲームが登場だ！',
   'ダウンロード',
 ];
 

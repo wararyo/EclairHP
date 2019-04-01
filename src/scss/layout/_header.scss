@@ -58,16 +58,16 @@
 
 .header-logo {
 	position: absolute;
-	top: 172px;
-	left: 100px;
+	top: 96px;
+	right: 100px;
 	img {
-		height: 280px;
+		height: 360px;
 	}
 }
 
 .header-hero {
 	position: absolute;
-	right: 0;
+	left: 0;
 	transform: translateX(10%);
 	background: url("images/header/flare.svg");
 	background-size: cover;
@@ -76,7 +76,7 @@
 
 .header-detail {
 	position: absolute;
-	bottom: 36px;
+	bottom: 16px;
 	left: 128px;
 	text-shadow: 0 0 8px rgba($black, 1);
 	color: white;
@@ -84,8 +84,9 @@
 		margin-bottom: 24px;
 	}
 	li {
-		font-size: 1.2em;
+		font-size: 1.6em;
 		line-height: 1.4em;
+		font-weight: bold;
 	}
 }
 
@@ -94,7 +95,8 @@
 	height: 320px;
 	position: absolute;
 	left: -24px;
-	bottom: -48px;	
+	bottom: -96px;
+	z-index: 2;
 	background-image: url("images/header/glitch.png");
 }
 

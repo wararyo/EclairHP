@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>電撃少女エクレア 公式サイト</title>
+    <title>激アツ男 ブリオッシュ 公式サイト</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- OGP -->
     <head prefix="og: http://ogp.me/ns# website: http://ogp.me/ns/website#">
-	<meta property="og:title" content="電撃少女エクレア　公式サイト" />
+	<meta property="og:title" content="激アツ男 ブリオッシュ　公式サイト" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://qpic.jp/pages/eclair" />
-	<meta property="og:image" content="http://qpic.jp/pages/eclair/images/common/ogp.jpg" />
+	<meta property="og:url" content="http://qpic.jp/pages/eclair/brioche" />
+	<meta property="og:image" content="http://qpic.jp/pages/eclair/brioche/images/common/ogp.jpg" />
 	<meta property="og:site_name" content="Qpic" />
-	<meta property="og:description" content="Qpic開発の3Dアクションゲーム「電撃少女エクレア」の公式サイトです。" />
+	<meta property="og:description" content="エクレアぶちのめし系3Dアクションゲーム「激アツ男 ブリオッシュ」の公式サイトだ。" />
 	<!-- TwitterCard -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:image" content="http://qpic.jp/pages/eclair/images/common/ogp.jpg" />
+	<meta name="twitter:image" content="http://qpic.jp/pages/eclair/brioche/images/common/ogp.jpg" />
 
     <meta name="theme-color" content="#F28446">
     <!-- Vue.js -->
@@ -57,32 +57,26 @@
     </script>
 
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-NCRJLFG');</script>
+	})(window,document,'script','dataLayer','GTM-NCRJLFG');</script> -->
 	<!-- End Google Tag Manager -->
 
   </head>
   <body>
 	<header class="header">
-		<canvas v-if="!isMobile" width="1280" height="640" class="header-canvas" id="headerCanvas"></canvas>
 		<div class="header-container">
 			<div class="header-hero">
-				<img src="images/header/hero.png" height="640" alt="エクレア">
+				<img src="images/header/hero.png" height="640" alt="ブリオッシュ">
 			</div>
 			<a class="header-qpic" href="http://qpic.jp/"><img src="images/header/qpic.svg" alt="Qpic"></a>
-			<h1 class="header-logo"><img src="images/header/logo.png" alt="電撃少女エクレア"></h1>
+			<h1 class="header-logo"><img src="images/header/logo.png" alt="激アツ男 ブリオッシュ"></h1>
 			<div class="header-detail">
 				<ul>
-					<li>ジャンル: 3Dアクション</li>
-					<li>プラットフォーム: Windows, Mac</li>
-					<li>プレイ人数: 1人</li>
+					<li>ジャンル: エクレアぶちのめし系3Dアクション</li>
 				</ul>
-				<div class="header-message">
-				<span>「第一章」</span><span>公開中！</span>
-				</div>
 			</div>
 			<div class="header-glitch">
 				
@@ -92,17 +86,9 @@
 				<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fqpic.jp%2Feclair&width=72&layout=button&action=like&size=small&show_faces=true&share=false&height=65&appId" width="72" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 			</div>
 			<div class="header-info">
-				<a v-if="isMobile" href="https://twitter.com/Eclair_HTL" class="header-banner"> 
+				<a href="https://twitter.com/Eclair_HTL" class="header-banner"> 
 					<img src="images/header/Twitter.svg">
 				</a>
-				<div v-if="!isMobile" class="header-banner">
-					<div class="header-twitter-header">
-						<img src="images/header/twitterIcon.svg" width=36 alt="">
-						<a class="twitter-name" href="https://twitter.com/Eclair_HTL" target="_blank">@Eclair_HTL</a>
-						<a class="twitter-follow" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%3A3000%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=Eclair_HTL&tw_p=followbutton">フォロー</a>
-					</div>
-					<a class="twitter-timeline" data-lang="ja" data-width="240" data-height="200" data-chrome="noheader nofooter" href="https://twitter.com/Eclair_HTL?ref_src=twsrc%5Etfw">Tweets by Eclair_HTL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</div>
 			</div>
 		</div>
 	</header>
@@ -113,156 +99,48 @@
 			<ul>
 				<li v-if="isPhone" class="toolbar-mobile"><a v-on:click="shownInMobile = !shownInMobile">{{currentSectionName}}</a></li>
 				<li class="nav-top" v-on:click="shownInMobile = false"><a href="#"><img src="images/navgation/silhouette.svg" alt="トップへ"></a></li>
-				<li class="nav-about" v-bind:class="{active: currentSection == 0}" v-on:click="shownInMobile = false"><a href="#about"><span>電撃少女</span><span>エクレアとは</span></a></li>
-				<li class="nav-character" :class="{active: currentSection == 1}" v-on:click="shownInMobile = false"><a href="#characters">キャラクター</a></li>
+				<li class="nav-about" v-bind:class="{active: currentSection == 0}" v-on:click="shownInMobile = false"><a href="#about"><span>俺のゲームが</span><span>登場だ！</span></a></li>
 				<li class="nav-gallery" :class="{active: currentSection == 2}" v-on:click="shownInMobile = false"><a href="#gallery">ギャラリー</a></li>
 				<li class="nav-download" :class="{active: currentSection == 3}" v-on:click="shownInMobile = false"><a href="#download"><span>ダウン</span><span>ロード</span></a></li>
 			</ul>
 		</div>
 	</nav>
 	<div id="movie" class="movie">
-		<a href="https://youtu.be/autYRqHTAlI" :href="isPhone ? 'https://www.youtube.com/watch?v=autYRqHTAlI' : 'https://www.youtube.com/embed/autYRqHTAlI?autoplay=1&amp;rel=0'" :rel="isPhone ? '' : 'shadowbox;width=960;height=540'" onclick="pauseMovie()">
-			<img src="images/movie/play.svg" width=64 height=64 alt="動画を再生" class="movie-play">
-		</a>
-		<div id="movie-player"></div>
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/3BUzi2uVDGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	<div id="about" class="about" v-lazy-container="{ selector: 'img' }">
-		<div class="section-header" v-bind:class="{hidden: shownInMobile}" ><h2>電撃少女エクレアとは</h2></div>
+		<div class="section-header" v-bind:class="{hidden: shownInMobile}" ><h2>ついにブリオッシュのゲームが登場だ！</h2></div>
 		<div class="container">
-			<decoration-wrapper :side="0"></decoration-wrapper>
 			<p>
-				<span><b>電撃少女エクレア</b>は、</span>
-				<span class="emphasized">スピード感・爽快感のある動き</span><br>
-				<span>を目指した</span>
-				<span>3Dアクションゲーム。</span>
+				<span><b>激アツ男 ブリオッシュ</b>は、</span>
+				<span>かのELE-GEARの使い手</span>
+				<span class="emphasized">エクレア</span><br>
+				<span>を倒すゲームだ。</span>
 			</p>
 			<p>
-				<span>電気を操る少女</span>
-				<span>「<b>エクレア</b>」は、</span>
-				<span>彼女を救った</span>
-				<span>『<b>ギア</b>』の研究者</span>
-				<span>「<b>オレイエット</b>」</span>
-				<span>から依頼を受ける。</span>
-			</p>
-			<p>
-				<span>なんでも、大いなる力を持つ</span>
-				<span>『<b>時空のギア</b>』の一部を</span>
-				<span>武装ギア集団『<b>アーミーギア</b>』</span>
-				<span>から</span>
-				<span>回収して欲しいとのこと。</span>
-			</p>
-			<p>
-				<span>電撃を操るギア</span>
-				<span>「<b>ELE-GEAR</b>」を駆使しながら、</span>
-				<span>彼女はアーミーギアへ立ち向かう。</span>
+				<span>ブリオッシュとして</span>
+				<span>エクレアを返り討ちにするのだ！！</span>
 			</p>
 
-			<img v-if="!isPhone" data-src="images/about/eclair.png" alt="エクレア" height=640 class="about-eclair">
+			<p><span>なんか良い文章考えて</span></p>		
 
-			<h3><span>エクレア最大の</span>
-				<span>アクション「電撃移動」</span></h3>
-			<div class="about-movie" v-if="!isPhone">
-				<div id="about-player"></div>
-			</div>
-			<img v-if="isPhone" data-src="images/about/eto.gif" alt="エクレア" height=320 class="about-gif">
-			<p>
-				<span>ELE-GEARを装備した</span>
-				<span>エクレアができる技の中で</span>
-				<span>最も重要なのが</span>
-				「<span class="emphasized">電撃移動</span>」です。
-			</p>
-			<p>
-				<span>これは、エクレア自らが</span>
-				<span><b>電気体</b>となり、</span>
-				<span>あらゆる場所に高速で</span>
-				<span>移動することができる技です。</span>
-			</p>
-			<p>
-				<span>電撃移動を行うにはあらかじめ</span>
-				<span>「<b>ボルト</b>」と呼ばれる装置を</span>
-				<span>移動したい場所に投げます。</span>
-				<span>電撃移動を始めると、</span><br>
-				<span>エクレアはボルトに向かって</span>
-				<span>引き寄せられます。</span>
-			</p>
-			<decoration-wrapper :side="1"></decoration-wrapper>
-		</div>
-	</div>
-	<div id="characters" class="characters" v-lazy-container="{ selector: 'img' }">
-		<div class="section-header cyan" v-bind:class="{hidden: shownInMobile}"><h2>キャラクター</h2></div>
-		<div class="container">
-			<decoration-wrapper :side="0"></decoration-wrapper>
-			<div class="character">
-				<h3>エクレア</h3>
-				<img data-src="images/characters/eclair.png" height=480 alt="エクレア" class="characters-image eclair">
-				<p>
-					「ELE-GEAR」を操る少女。<br>
-					<span>オレイエットの依頼を受け</span>
-					<span>アーミーギアを倒しに行く。</span>
-				</p>
-				<p>
-					焼き芋が好き。
-				</p>
-			</div>
-			<div class="character">
-				<h3><span>ビクター・</span><span>オレイエット</span></h3>
-				<img data-src="images/characters/oreillette.png" height=480 alt="オレイエット" class="characters-image">
-				<p>
-					<span>「ギア」と呼ばれる</span>
-					<span>不思議な装置を研究している男。</span><br>
-					<span>襲撃を受け気を失った</span>
-					<span>エクレアを助け、</span><br>
-					<span>彼女に</span>
-					<span>「時空のギア」の回収を</span>
-					<span>依頼する。</span>
-				</p>
-				<p>
-					<span>エクレアの戦闘を</span>
-					<span>無線でサポートする。</span>
-				</p>
-			</div>
-			<div class="and-so-on">
-				<p>and so on...</p>
-			</div>
-			<decoration-wrapper :side="1"></decoration-wrapper>
+			<img v-if="!isPhone" data-src="images/about/brioche.png" alt="ブリオッシュ" height=640 class="about-eclair">
 		</div>
 	</div>
 	<div id="gallery" class="gallery">
 		<h2>ギャラリー</h2>
 		<div class="gallery-container">
-			<a href="images/gallery/1.jpg" rel="shadowbox[gallery]"><img src="images/gallery/1.thumb.jpg" alt="1章コンセプトアート"></a>
-			<a href="images/gallery/2.jpg" rel="shadowbox[gallery]"><img src="images/gallery/2.thumb.jpg" alt="ボルト"></a>
-			<a href="images/gallery/3.jpg" rel="shadowbox[gallery]"><img src="images/gallery/3.thumb.jpg" alt="避雷針"></a>
-			<a href="images/gallery/4.jpg" rel="shadowbox[gallery]"><img src="images/gallery/4.thumb.jpg" alt="電撃移動中のエクレア"></a>
-			<a href="images/gallery/5.jpg" rel="shadowbox[gallery]"><img src="images/gallery/5.thumb.jpg" alt="クラゲ足場"></a>
-			<a href="images/gallery/6.jpg" rel="shadowbox[gallery]"><img src="images/gallery/6.thumb.jpg" alt="ボルトを投げるエクレア"></a>
-			<a href="images/gallery/7.jpg" rel="shadowbox[gallery]"><img src="images/gallery/7.thumb.jpg" alt="溶鉱炉"></a>
-			<a href="images/gallery/8.jpg" rel="shadowbox[gallery]"><img src="images/gallery/8.thumb.jpg" alt="水と避雷針"></a>
+			<a href="images/gallery/1.png" rel="shadowbox[gallery]"><img src="images/gallery/1.thumb.jpg" alt="BBから見た景色"></a>
+			<a href="images/gallery/2.png" rel="shadowbox[gallery]"><img src="images/gallery/2.thumb.jpg" alt="エクレアを狙撃"></a>
+			<a href="images/gallery/3.png" rel="shadowbox[gallery]"><img src="images/gallery/3.thumb.jpg" alt="いざ、ボス戦！"></a>
+			<a href="images/gallery/4.png" rel="shadowbox[gallery]"><img src="images/gallery/4.thumb.jpg" alt="火炎放射"></a>
 		</div>
 	</div>
 	<div id="download" class="download">
-		<div class="download-inner frame">
-			<h2>ダウンロード</h2>
-			<div class="download-pane is-main">
-				<h3>本編</h3>
-				<a href="https://freegame-mugen.jp/action/game_7494.html#gameFileInfo" class="download-button"><span>電撃少女エクレア v1.1.0</span>フリーゲーム夢現よりダウンロード</a>
-				<h4>含まれているコンテンツ</h4>
-				<ul>
-					<li>第一章, 第一章チャレンジモード</li>
-				</ul>
-				<p>全4章構成を予定、鋭意開発中</p>
-				<h3>推奨環境</h3>
-			<ul>
-				<li>GPU: GeForce GTX 970</li>
-				<li>画面解像度: 1920x1080</li>
-			</ul>
-			</div>
-			<div class="download-pane is-sub">
-				<h3>ミニゲーム</h3>
-				<a href="#minigames" rel="shadowbox;width=960;height=720" class="download-minigame-button"><img src="images/download/minigame-banner.png" width="200" alt=""></a>
-				<p><span>制作途中で生まれた</span><span>ミニゲームも遊べます。</span></p>
-			</div>
-		</div>
+		<p>…</p>
+		<h2>本当はわかっているんだ、<br>俺のゲームなんて存在しないってこと…</h2>
+		<p>これはエイプリルフールの企画なんだ</p>
+		<p>なんか良い文章考えて</p>	
 	</div>
 <!-- 	<div id="member" class="member">
 		<h2>制作メンバー</h2>
@@ -313,18 +191,18 @@
 			</div>
 			<div class="minigames-inner">
 				<div class="minigame">
-					<h4>電撃少女エクレア デンチとくらやみの廃坑</h4>
+					<h4>激アツ男 ブリオッシュ デンチとくらやみの廃坑</h4>
 					<div class="minigame-inner">
-					<img src="images/minigames/haikou.png" width="280" alt="電撃少女エクレア 業火の脱走路" class="minigame-logo">
+					<img src="images/minigames/haikou.png" width="280" alt="激アツ男 ブリオッシュ 業火の脱走路" class="minigame-logo">
 					<p class="description">地下の廃坑を探索しながらデンチをあつめよう！電撃移動の動きの改良や軽量化などが行われています。</p>
 					<img src="images/minigames/haikou-screenshot.jpg" alt="スクリーンショット" class="minigame-screenshot">
 					</div>
 					<a href="http://qpic.jp/new/works/games/257" class="minigame-download button">Qpicの詳細ページへ</a>
 				</div>
 				<div class="minigame">
-					<h4>電撃少女エクレア 業火の脱走路 &lt;レイジング・インフェルノ&gt;</h4>
+					<h4>激アツ男 ブリオッシュ 業火の脱走路 &lt;レイジング・インフェルノ&gt;</h4>
 					<div class="minigame-inner">
-					<img src="images/minigames/inferno.png" width="280" alt="電撃少女エクレア 業火の脱走路" class="minigame-logo">
+					<img src="images/minigames/inferno.png" width="280" alt="激アツ男 ブリオッシュ 業火の脱走路" class="minigame-logo">
 					<p class="description">灼熱の溶鉱炉からできるだけ早く脱出しよう！エクレアの要となるアクション「電撃移動」の試作第一号です。</p>
 					<img src="images/minigames/inferno-screenshot.jpg" alt="スクリーンショット" class="minigame-screenshot">
 					</div>
