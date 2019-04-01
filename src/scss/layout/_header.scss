@@ -68,6 +68,7 @@
 .header-hero {
 	position: absolute;
 	left: 0;
+	bottom: 0;
 	transform: translateX(10%);
 	background: url("images/header/flare.svg");
 	background-size: cover;
@@ -195,7 +196,7 @@
 
 @include mq(pc-narrow){
 	.header-logo {
-		left: 30px;
+		right: 30px;
 	}
 	.header-hero {
 		transform: translateX(20%);
@@ -236,7 +237,7 @@
 		overflow: hidden;
 
 		img {
-			width: 120%;
+			width: 80%;
 			height: auto;
 		}
 	}
@@ -296,7 +297,7 @@
 		margin: 48px 0 -96px;
 
 		img {
-			width: 160%;
+			width: 120%;
 			transform: translateX(-16%);
 			height: auto;
 		}

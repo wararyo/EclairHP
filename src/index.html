@@ -11,12 +11,12 @@
 	<meta property="og:title" content="激アツ男 ブリオッシュ　公式サイト" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://qpic.jp/pages/eclair/brioche" />
-	<meta property="og:image" content="http://qpic.jp/pages/eclair/brioche/images/common/ogp.jpg" />
+	<meta property="og:image" content="http://qpic.jp/pages/eclair/brioche/images/common/ogp.png" />
 	<meta property="og:site_name" content="Qpic" />
 	<meta property="og:description" content="エクレアぶちのめし系3Dアクションゲーム「激アツ男 ブリオッシュ」の公式サイトだ。" />
 	<!-- TwitterCard -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:image" content="http://qpic.jp/pages/eclair/brioche/images/common/ogp.jpg" />
+	<meta name="twitter:image" content="http://qpic.jp/pages/eclair/brioche/images/common/ogp.png" />
 
     <meta name="theme-color" content="#F28446">
     <!-- Vue.js -->
@@ -57,11 +57,11 @@
     </script>
 
 	<!-- Google Tag Manager -->
-	<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-NCRJLFG');</script> -->
+	})(window,document,'script','dataLayer','GTM-NCRJLFG');</script>
 	<!-- End Google Tag Manager -->
 
   </head>
@@ -69,7 +69,7 @@
 	<header class="header">
 		<div class="header-container">
 			<div class="header-hero">
-				<img src="images/header/hero.png" height="640" alt="ブリオッシュ">
+				<img src="images/header/hero.png" height="560" alt="ブリオッシュ">
 			</div>
 			<a class="header-qpic" href="http://qpic.jp/"><img src="images/header/qpic.svg" alt="Qpic"></a>
 			<h1 class="header-logo"><img src="images/header/logo.png" alt="激アツ男 ブリオッシュ"></h1>
@@ -100,8 +100,8 @@
 				<li v-if="isPhone" class="toolbar-mobile"><a v-on:click="shownInMobile = !shownInMobile">{{currentSectionName}}</a></li>
 				<li class="nav-top" v-on:click="shownInMobile = false"><a href="#"><img src="images/navgation/silhouette.svg" alt="トップへ"></a></li>
 				<li class="nav-about" v-bind:class="{active: currentSection == 0}" v-on:click="shownInMobile = false"><a href="#about"><span>俺のゲームが</span><span>登場だ！</span></a></li>
-				<li class="nav-gallery" :class="{active: currentSection == 2}" v-on:click="shownInMobile = false"><a href="#gallery">ギャラリー</a></li>
-				<li class="nav-download" :class="{active: currentSection == 3}" v-on:click="shownInMobile = false"><a href="#download"><span>ダウン</span><span>ロード</span></a></li>
+				<li class="nav-gallery" :class="{active: currentSection == 1}" v-on:click="shownInMobile = false"><a href="#gallery">ギャラリー</a></li>
+				<li class="nav-download" :class="{active: currentSection == 2}" v-on:click="shownInMobile = false"><a href="#download"><span>ダウン</span><span>ロード</span></a></li>
 			</ul>
 		</div>
 	</nav>
@@ -109,20 +109,31 @@
 		<iframe width="800" height="450" src="https://www.youtube.com/embed/3BUzi2uVDGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	<div id="about" class="about" v-lazy-container="{ selector: 'img' }">
-		<div class="section-header" v-bind:class="{hidden: shownInMobile}" ><h2>ついにブリオッシュのゲームが登場だ！</h2></div>
+		<div class="section-header" v-bind:class="{hidden: shownInMobile}" ><h2>俺のゲームが登場だ！</h2></div>
 		<div class="container">
 			<p>
 				<span><b>激アツ男 ブリオッシュ</b>は、</span>
 				<span>かのELE-GEARの使い手</span>
-				<span class="emphasized">エクレア</span><br>
+				<span class="emphasized">エクレア</span>
 				<span>を倒すゲームだ。</span>
 			</p>
+
 			<p>
-				<span>ブリオッシュとして</span>
-				<span>エクレアを返り討ちにするのだ！！</span>
+				<span>エクレアを倒すために、</span>
+				<span>俺はまず崖の上から</span>
+				<span>狙撃することにした。</span>
+				<span>倒すなら早い方がいいからな。</span>
+				<span>一方的に攻撃して、エクレアの体力を削るんだ。</span>
 			</p>
 
-			<p><span>なんか良い文章考えて</span></p>		
+			<p>
+				<span>次に待ち構えるのは廃坑の最深部での戦いだ。</span>
+				<span>パンチ、火柱、</span>
+				<span>グレネード弾、</span>
+				<span>そして火炎放射を駆使し、</span>
+				<span>エクレアを</span>
+				<span>返り討ちにするのだ！！</span>
+			</p>
 
 			<img v-if="!isPhone" data-src="images/about/brioche.png" alt="ブリオッシュ" height=640 class="about-eclair">
 		</div>
@@ -138,9 +149,32 @@
 	</div>
 	<div id="download" class="download">
 		<p>…</p>
-		<h2>本当はわかっているんだ、<br>俺のゲームなんて存在しないってこと…</h2>
-		<p>これはエイプリルフールの企画なんだ</p>
-		<p>なんか良い文章考えて</p>	
+		<h2><span>本当は</span>
+			<span>わかっているんだ、</span><br>
+			<span>俺のゲームなんて</span>
+			<span>存在しないということ…</span>
+		</h2>
+		<p><span>これは</span>
+			<span class="emphasized">エイプリルフール</span>
+			<span>とやらの企画なんだ。</span>
+		</p>
+		<p><span class="emphasized">"ディレクターのN氏"</span>
+			<span>を名乗るヤツにそそのかされて…</span>
+			<span>『俺のゲームができる』なんてこと、</span>
+			<span>考えちまったのさ…</span>
+		</p>
+
+		<p>
+			<span>だがよ、</span>
+			<span>待ってればそのうち</span>
+			<span>俺が主人公のゲームも</span>
+			<span>できるかもな！</span>
+			<span>とりあえず今は、</span>
+			<span>俺が"ボス"(!)として登場する</span>
+			<span class="emphasized">『電撃少女エクレア』</span>
+			<span>を遊んでくれ!!</span>
+		</p>
+		<a href="http://qpic.jp/pages/eclair/" class="download-button"></a>
 	</div>
 <!-- 	<div id="member" class="member">
 		<h2>制作メンバー</h2>
@@ -175,43 +209,6 @@
 		<p>&copy;Team HTL in Qpic</p>
 	</footer>
 	</div><!-- navigation-wrapper -->
-
-	<div id="minigames"><!-- Shown by Shadowbox -->
-		<div class="minigames-container">
-			<div class="minigames">
-			<h3>ミニゲーム</h3>
-			<p>
-				開発途中で生まれたミニゲームを配信しています。
-			</p>
-			<div class="mobile">
-				<h4>これらのミニゲームはWindows/Macのみ対応しています</h4>
-				<p>
-					再度PCからアクセスしていただくことをお勧めします。
-				</p>
-			</div>
-			<div class="minigames-inner">
-				<div class="minigame">
-					<h4>激アツ男 ブリオッシュ デンチとくらやみの廃坑</h4>
-					<div class="minigame-inner">
-					<img src="images/minigames/haikou.png" width="280" alt="激アツ男 ブリオッシュ 業火の脱走路" class="minigame-logo">
-					<p class="description">地下の廃坑を探索しながらデンチをあつめよう！電撃移動の動きの改良や軽量化などが行われています。</p>
-					<img src="images/minigames/haikou-screenshot.jpg" alt="スクリーンショット" class="minigame-screenshot">
-					</div>
-					<a href="http://qpic.jp/new/works/games/257" class="minigame-download button">Qpicの詳細ページへ</a>
-				</div>
-				<div class="minigame">
-					<h4>激アツ男 ブリオッシュ 業火の脱走路 &lt;レイジング・インフェルノ&gt;</h4>
-					<div class="minigame-inner">
-					<img src="images/minigames/inferno.png" width="280" alt="激アツ男 ブリオッシュ 業火の脱走路" class="minigame-logo">
-					<p class="description">灼熱の溶鉱炉からできるだけ早く脱出しよう！エクレアの要となるアクション「電撃移動」の試作第一号です。</p>
-					<img src="images/minigames/inferno-screenshot.jpg" alt="スクリーンショット" class="minigame-screenshot">
-					</div>
-					<a href="http://qpic.jp/new/works/games/254" class="minigame-download button">Qpicの詳細ページへ</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</div>
 
     <!-- BrowserSync -->
     <!-- <script id="__bs_script__">//<![CDATA[

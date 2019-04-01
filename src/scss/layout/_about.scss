@@ -2,7 +2,7 @@
 .about {
 	background: url("images/common/stripe.png");
 	background-size: 177px 151px;
-	overflow-x: hidden;
+	overflow: hidden;
 	box-shadow: 0 2px 4px rgba($black, .2);
 	
 	> .container {
@@ -74,6 +74,11 @@
 			margin-left: 0px;
 			margin-bottom: 24px;
 		}
+	}
+
+	.about-eclair {
+		opacity: 0.4;
+		right: -96px;
 	}
 
 	.about-movie {

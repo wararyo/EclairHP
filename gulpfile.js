@@ -91,6 +91,8 @@ gulp.task("js", function(done) {
     done();
 });
 
+gulp.task("dist",gulp.parallel("js","sass","html","image"));
+
 gulp.task("start",gulp.series( gulp.parallel('server'), function() {
     gulp.watch(jsfiles,gulp.task("js"));
     gulp.watch(scssfiles,gulp.task("sass"));

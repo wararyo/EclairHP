@@ -43,6 +43,7 @@ Vue.use(VueLazyload, {
 var sectionNames = [
   'INDEX',
   '俺のゲームが登場だ！',
+  'ギャラリー',
   'ダウンロード',
 ];
 
@@ -80,74 +81,6 @@ var vue = new Vue({
 var toggleNav = function() {
   vue.shownInMobile = !vue.shownInMobile;
 };
-
-// Youtube
-if(!isPhone()) {//携帯だったらスクリプト読まないぜ
-  var tag = document.createElement('script');
-
-  tag.src = "https://www.youtube.com/iframe_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-}
-
-//ナビゲーション下の動画
-var moviePlayer;
-//電撃移動の動画 
-var etoPlayer;
-function onYouTubeIframeAPIReady() {
-  moviePlayer = new YT.Player('movie-player', {
-    height: '320',
-    width: '1280',
-    videoId: 'qmaJQN9-RVM',
-    events: {
-      'onReady': onPlayerReady,
-      'onStateChange': onPlayerStateChange
-    },
-    playerVars: {
-      controls: 0,
-      showinfo: 0,
-      disablekb: 1,
-      rel: 0
-    }
-  });
-  etoPlayer = new YT.Player('about-player', {
-    height: '360',
-    width: '480',
-    videoId: 'xNKilogWNNs',
-    events: {
-      'onReady': onPlayerReady,
-      'onStateChange': onPlayerStateChange
-    },
-    playerVars: {
-      controls: 0,
-      showinfo: 0,
-      disablekb: 1,
-      rel: 0
-    }
-  });
-}
-
-function onPlayerReady(event) {
-  event.target.playVideo();
-  event.target.mute();
-}
-
-var loopCount = 0;
-function onPlayerStateChange(event) {
-  if (event.data == YT.PlayerState.ENDED) {
-    if(loopCount < 12) {//放置されても通信量ヤバくならない
-      event.target.seekTo(0,true);
-      event.target.playVideo();
-      loopCount++;
-    }
-  }
-}
-
-var pauseMovie = function () {
-  moviePlayer.pauseVideo();
-}
-
-//End Youtube
 
 if(!isMobile()) {
 
