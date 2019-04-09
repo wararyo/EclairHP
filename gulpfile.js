@@ -37,17 +37,19 @@ var usage = ['','Gulpfile non-PHP Project',
 	'		js        : compile javascript manually',''
  ];
  
-gulp.task("server", function() {
+gulp.task("server", function(done) {
     browser.init({
         server: "dist"
     });
+    done();
 });
 
-gulp.task("reload", function() {
+gulp.task("reload", function(done) {
     browser.reload();
+    done();
 });
  
-gulp.task("sass", function() {
+gulp.task("sass", function(done) {
     gulp.src(scssfiles)
     	.pipe(plumber({errorHandler: notify.onError({
         	message: "<%= error.message %>",
@@ -57,26 +59,30 @@ gulp.task("sass", function() {
         .pipe(sass())
         .pipe(autoprefixer())
         .pipe(gulp.dest("dist/"));
+    done();
 });
 
-gulp.task("html", function() {
+gulp.task("html", function(done) {
     gulp.src(htmlfiles)
         .pipe(gulp.dest("dist/"));
+    done();
 });
 
-gulp.task("image", function() {
+gulp.task("image", function(done) {
     gulp.src(imagefiles)
         .pipe(gulp.dest("dist/images/"));
+    done();
 });
 
-gulp.task("frontnote", function() {
+gulp.task("frontnote", function(done) {
 	gulp.src(scssfiles)
 		.pipe(frontnote({
 	            css: 'dist/style.css'
 	        }));
+    done();
 });
 
-gulp.task("js", function() {
+gulp.task("js", function(done) {
     gulp.src(jsfiles)
     	.pipe(plumber({errorHandler: notify.onError({
         	message: "<%= error.message %>",
@@ -84,9 +90,12 @@ gulp.task("js", function() {
       	})}))
         .pipe(uglify())
         .pipe(gulp.dest("dist/js/"));
+    done();
 });
 
-gulp.task("start",gulp.series( gulp.parallel('server'), function() {
+gulp.task("dist",gulp.parallel("js","sass","html","image"));
+
+gulp.task("start",gulp.series( gulp.parallel('dist','server'), function() {
     gulp.watch(jsfiles,gulp.task("js"));
     gulp.watch(scssfiles,gulp.task("sass"));
     gulp.watch(htmlfiles,gulp.task("html"));
