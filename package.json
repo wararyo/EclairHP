@@ -20,8 +20,9 @@
     "gulp-frontnote": "^2.0.1",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.0.8",
     "gulp-uglify": "^3.0.0"
-  }
+  },
+  "dependencies": {}
 }
